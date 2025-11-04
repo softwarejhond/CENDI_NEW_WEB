@@ -1,6 +1,6 @@
 <!-- Floating Button -->
 <div class="floating-button">
-    <button class="btn btn-primary btn-float" type="button" id="floatingButton">
+    <button class="btn btn-float" style="background-color: #0d6efd; color: white; border: none;" type="button" id="floatingButton">
         <i class='bx bx-plus'></i>
     </button>
     
