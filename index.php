@@ -12,7 +12,8 @@
 <?php include 'controller/topnav.php'; ?>
 
     <!-- BOTTOM NAV -->
-<?php include 'controller/navbar.php'; ?>
+    <?php include("controller/navbar.php") ?>
+    <?php include("controller/floating-button.php") ?>
 
     <!-- SLIDER -->
     <div class="owl-carousel owl-theme hero-slider">

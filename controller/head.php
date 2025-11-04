@@ -9,5 +9,6 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/floating-button.css">
 
     <title><?php echo ucfirst(str_replace('.php', '', basename($_SERVER['PHP_SELF']))); ?> | CENDI</title>
