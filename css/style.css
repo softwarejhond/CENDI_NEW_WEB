@@ -6,7 +6,7 @@
     --body: #516171;
     --border: rgba(0,0,0,0.08);
     --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
-    
+    --brand-blue: #022964; /* Color azul institucional */
 }
 .--brand {
   color: var(--brand);
@@ -199,12 +199,16 @@ section {
     border-color: var(--brand);
     background-color: var(--brand);
     color: #fff;
+    transition: all 0.3s ease;
+    transform: translateY(0);
 }
 
 .btn-brand:hover {
     background-color: #d64022;
     border-color: #d64022;
     color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(214, 64, 34, 0.3);
 }
 
 .intro {margin-bottom: 36px;
@@ -259,6 +263,24 @@ text-align: center;}
 
 .service img {
     width: 90px;
+}
+
+.service i {
+    transition: all 0.3s ease;
+    background: rgba(2, 41, 100, 0.1); /* Fondo azul suave */
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 24px;
+}
+
+.service:hover i {
+    background: var(--brand-blue);
+    color: white !important;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(2, 41, 100, 0.3);
 }
 
 

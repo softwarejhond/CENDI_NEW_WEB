@@ -13,6 +13,19 @@
 </style>
 <section id="about">
     <div class="container">
+    <div class="row">
+    <div class="col-12">
+        <div class="intro text-center">
+            <h6 class="">¡BIENVENIDOS A CENDI!</h6>
+            <h1 class="">Forma parte de nuestra gran familia educativa</h1>
+            <p class="mx-auto">
+                En CENDI creemos en tu potencial y te acompañamos a construir un futuro lleno de oportunidades.  
+                Da el primer paso hacia tus sueños: inscríbete hoy y prepárate para grandes logros.
+            </p>
+        </div>
+    </div>
+</div>
+
         <div class="row justify-content-center">
             <div class="col-lg-5 py-5">
                 <div class="row">
