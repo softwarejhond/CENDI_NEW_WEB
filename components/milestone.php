@@ -2,20 +2,24 @@
         <div class="container">
             <div class="row text-center justify-content-center gy-4">
                 <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">90K+</h1>
-                    <p class="mb-0">Happy Clients</p>
+                    <h1 class="display-4">37</h1>
+                    <p class="mb-0">Años</p>
                 </div>
                 <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">45M</h1>
-                    <p class="mb-0">Lines of code</p>
+                    <h1 class="display-4">25+</h1>
+                    <p class="mb-0">Docentes</p>
                 </div>
                 <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">190</h1>
-                    <p class="mb-0">Total Downloads</p>
+                    <h1 class="display-4">12.000+</h1>
+                    <p class="mb-0">Estudiantes</p>
                 </div>
                 <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">380K</h1>
-                    <p class="mb-0">YouTube Subscribers</p>
+                    <h1 class="display-4">4.500+</h1>
+                    <p class="mb-0">Técnicos</p>
+                </div>
+                    <div class="col-lg-2 col-sm-6">
+                    <h1 class="display-4">12+</h1>
+                    <p class="mb-0">Programas</p>
                 </div>
             </div>
         </div>

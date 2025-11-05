@@ -8,6 +8,13 @@
     --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
     
 }
+.--brand {
+  color: var(--brand);
+}
+.--dark {
+  color: var(--dark);
+
+}
 
 body {
     font-family: "Barlow", sans-serif;
