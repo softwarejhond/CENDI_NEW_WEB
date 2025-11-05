@@ -83,7 +83,7 @@
         </div>
     </section>
 
-<?php include("components/teams.php") ?>
+  <?php include("components/teams.php") ?>
 
     <section class="bg-light" id="reviews">
 
@@ -145,7 +145,7 @@
         </div>
     </section>
 
-
+<?php include("components/agreements.php") ?>
     <footer>
 <?php include 'controller/footer.php'; ?>
     </footer>

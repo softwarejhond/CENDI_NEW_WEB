@@ -5,8 +5,8 @@
                     <div class="intro">
                         <h6>EQUIPO</h6>
                         <h1>CONOCE NUESTRO PERSONAL CENDI</h1>
-                        <p class="mx-auto">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-                            roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
+                        <p class="mx-auto">Juntos convertimos talento en impacto: cada persona suma, cada idea
+                            importa y cada esfuerzo construye el futuro que soñamos.</p>
                     </div>
                 </div>
             </div>
@@ -32,7 +32,7 @@
                         $('.team-carousel').owlCarousel({
                             loop:true,
                             autoplay:true,
-                            autoplayTimeout:3000,
+                            autoplayTimeout:2000,
                             autoplayHoverPause:true,
                             margin:20,
                             nav:true,
