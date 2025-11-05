@@ -16,167 +16,15 @@
     <?php include("controller/floating-button.php") ?>
 
     <!-- SLIDER -->
-    <div class="owl-carousel owl-theme hero-slider">
-        <div class="slide slide1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center text-white">
-                        <h6 class="text-white text-uppercase">design Driven for professional</h6>
-                        <h1 class="display-3 my-4">We craft digital<br />experiances</h1>
-                        <a href="#" class="btn btn-brand">Get Started</a>
-                        <a href="#" class="btn btn-outline-light ms-3">Our work</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="slide slide2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-lg-10 offset-lg-1 text-white">
-                        <h6 class="text-white text-uppercase">We craft digital experiances</h6>
-                        <h1 class="display-3 my-4">Design Driven For <br />Professionals</h1>
-                        <a href="#" class="btn btn-brand">Get Started</a>
-                        <a href="#" class="btn btn-outline-light ms-3">Our work</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+ <?php include("components/carousel.php") ?>
     <!-- ABOUT -->
-    <section id="about">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-5 py-5">
-                    <div class="row">
-
-                        <div class="col-12">
-                            <div class="info-box">
-                                <img src="img/icon6.png" alt="">
-                                <div class="ms-4">
-                                    <h5>Digital Marketing</h5>
-                                    <p>It is a long established fact that a reader will be distracted by the readable
-                                        content of a page </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 mt-4">
-                            <div class="info-box">
-                                <img src="img/icon4.png" alt="">
-                                <div class="ms-4">
-                                    <h5>E-mail Marketing</h5>
-                                    <p>It is a long established fact that a reader will be distracted by the readable
-                                        content of a page </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 mt-4">
-                            <div class="info-box">
-                                <img src="img/icon5.png" alt="">
-                                <div class="ms-4">
-                                    <h5>Buisness Marketing</h5>
-                                    <p>It is a long established fact that a reader will be distracted by the readable
-                                        content of a page </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <img src="img/about.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
+<?php include("components/about_index.php") ?>
 
     <!-- MILESTONE -->
-    <section id="milestone">
-        <div class="container">
-            <div class="row text-center justify-content-center gy-4">
-                <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">90K+</h1>
-                    <p class="mb-0">Happy Clients</p>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">45M</h1>
-                    <p class="mb-0">Lines of code</p>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">190</h1>
-                    <p class="mb-0">Total Downloads</p>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">380K</h1>
-                    <p class="mb-0">YouTube Subscribers</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<?php include("components/milestone.php") ?>
 
-    <section id="services" class="text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="intro">
-                        <h6>Our Services</h6>
-                        <h1>What We Do?</h1>
-                        <p class="mx-auto">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-                            roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="service">
-                        <img src="img/icon1.png" alt="">
-                        <h5>Digital Marketing</h5>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                            classical Latin literature from</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service">
-                        <img src="img/icon2.png" alt="">
-                        <h5>Logo Designing</h5>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                            classical Latin literature from</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service">
-                        <img src="img/icon3.png" alt="">
-                        <h5>Buisness consulting</h5>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                            classical Latin literature from</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service">
-                        <img src="img/icon4.png" alt="">
-                        <h5>Videography</h5>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                            classical Latin literature from</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service">
-                        <img src="img/icon5.png" alt="">
-                        <h5>Brand Identity</h5>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                            classical Latin literature from</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service">
-                        <img src="img/icon6.png" alt="">
-                        <h5>Ethical Hacking</h5>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                            classical Latin literature from</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+      <!-- SERVICES -->
+<?php include("components/services.php") ?>
 
     <section class="bg-light" id="portfolio">
         <div class="container">
@@ -235,73 +83,7 @@
         </div>
     </section>
 
-    <section id="team">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="intro">
-                        <h6>Team</h6>
-                        <h1>Team Members</h1>
-                        <p class="mx-auto">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-                            roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-8">
-                    <div class="team-member">
-                        <div class="image">
-                            <img src="img/team_1.jpg" alt="">
-                            <div class="social-icons">
-                                <a href="#"><i class='bx bxl-facebook'></i></a>
-                                <a href="#"><i class='bx bxl-twitter'></i></a>
-                                <a href="#"><i class='bx bxl-instagram'></i></a>
-                                <a href="#"><i class='bx bxl-pinterest'></i></a>
-                            </div>
-                            <div class="overlay"></div>
-                        </div>
-
-                        <h5>Marvin McKinney</h5>
-                        <p>Marketing Coordinator</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-8">
-                    <div class="team-member">
-                        <div class="image">
-                            <img src="img/team_2.jpg" alt="">
-                            <div class="social-icons">
-                                <a href="#"><i class='bx bxl-facebook'></i></a>
-                                <a href="#"><i class='bx bxl-twitter'></i></a>
-                                <a href="#"><i class='bx bxl-instagram'></i></a>
-                                <a href="#"><i class='bx bxl-pinterest'></i></a>
-                            </div>
-                            <div class="overlay"></div>
-                        </div>
-
-                        <h5>Kathryn Murphy</h5>
-                        <p>Ethical Hacker</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-8">
-                    <div class="team-member">
-                        <div class="image">
-                            <img src="img/team_3.jpg" alt="">
-                            <div class="social-icons">
-                                <a href="#"><i class='bx bxl-facebook'></i></a>
-                                <a href="#"><i class='bx bxl-twitter'></i></a>
-                                <a href="#"><i class='bx bxl-instagram'></i></a>
-                                <a href="#"><i class='bx bxl-pinterest'></i></a>
-                            </div>
-                            <div class="overlay"></div>
-                        </div>
-
-                        <h5>Darrell Steward</h5>
-                        <p>Software Developer</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<?php include("components/teams.php") ?>
 
     <section class="bg-light" id="reviews">
 
@@ -363,58 +145,6 @@
         </div>
     </section>
 
-    <section id="blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="intro">
-                        <h6>Blog</h6>
-                        <h1>Blog Posts</h1>
-                        <p class="mx-auto">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-                            roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <article class="blog-post">
-                        <img src="img/project5.jpg" alt="">
-                        <a href="#" class="tag">Web Design</a>
-                        <div class="content">
-                            <small>01 Dec, 2022</small>
-                            <h5>Web Design trends in 2022</h5>
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                piece of classical Latin literature from</p>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-4">
-                    <article class="blog-post">
-                        <img src="img/project4.jpg" alt="">
-                        <a href="#" class="tag">Programming</a>
-                        <div class="content">
-                            <small>01 Dec, 2022</small>
-                            <h5>Web Design trends in 2022</h5>
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                piece of classical Latin literature from</p>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-4">
-                    <article class="blog-post">
-                        <img src="img/project2.jpg" alt="">
-                        <a href="#" class="tag">Marketing</a>
-                        <div class="content">
-                            <small>01 Dec, 2022</small>
-                            <h5>Web Design trends in 2022</h5>
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                piece of classical Latin literature from</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <footer>
 <?php include 'controller/footer.php'; ?>
