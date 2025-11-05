@@ -1,22 +1,20 @@
 <!-- Floating Button -->
 <div class="floating-button">
-    <button class="btn btn-float" style="background-color: #0d6efd; color: white; border: none;" type="button" id="floatingButton">
+    <button class="btn btn-float btn-brand" style=" color: white; border: none;" type="button" id="floatingButton">
         <i class='bx bx-plus'></i>
     </button>
     
     <div class="floating-menu" id="floatingMenu">
-        <a href="https://wa.me/573122143744" target="_blank">
-            <i class='bx bxl-whatsapp'></i> WhatsApp
+        <a href="https://site3.q10.com/login?ReturnUrl=%2F&aplentId=d0e037d5-22c3-4082-b55e-d30628819936" target="_blank">
+            <i class='bx bxl-whatsapp'></i> Q10 Técnicos
         </a>
-        <a href="tel:+576044441808">
-            <i class='bx bxs-phone'></i> Llamar
+        <a href="https://site2.q10.com/login?ReturnUrl=%2F&aplentId=c866b1f7-b5a4-4146-a6d5-eda3de6bdea9" target="_blank">
+            <i class='bx bxs-book'></i> Q10 Bachillerato
         </a>
-        <a href="https://maps.google.com/?q=Carrera+42+No.49-59,+Medellín,+Colombia" target="_blank">
-            <i class='bx bxs-map'></i> Ubicación
+        <a href="https://www.campusdigital.cendiacademico.edu.co/login/index.php" target="_blank">
+            <i class='bx bxs-rocket'></i> Campus virtual
         </a>
-        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <i class='bx bx-envelope'></i> Contacto
-        </a>
+       
     </div>
 </div>
 

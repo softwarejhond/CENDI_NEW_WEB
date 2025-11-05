@@ -26,9 +26,9 @@
         <div class="row justify-content-center">
             <div class="col-lg-6 text-center">
                 <div class="mb-4">
-                    <img src="img/logo.png" alt="Logo CENDI" class="img-fluid" style="max-width: 200px;">
+                    <img src="img/logo.png" alt="Logo CENDI" class="img-fluid" style="max-width: 200px; filter: brightness(0) invert(1);">
                 </div>
-                <p>La institución fue fundada en el año de 1988, la idea partió de un diagnóstico de necesidades de la comunidad. Estas inquietudes fueron madurando a través de charlas y grupos de estudio con otras personas vinculadas a la educación y nació así la idea de fundar una institución de enseñanza de Validación de Bachillerato y programas técnicos. La institución inició labores en enero de 1988, con experiencia en trabajo de Validación del Bachillerato con Prueba Única ante el ICFES y programas de Actitud Ocupacional hoy llamados programas Técnicos de Formación para el trabajo y el desarrollo humano.</p>
+                <p>"La educación es el arma más poderosa que puedes usar para cambiar el mundo."<br><b>— Nelson Mandela</b></p>
                 <div class="col-auto social-icons">
                     <a href="https://www.facebook.com/InstitutoCENDI/" target="_blank"><i class='bx bxl-facebook'></i></a>
                     <a href="https://www.instagram.com/cendi.medellin/" target="_blank"><i class='bx bxl-instagram'></i></a>

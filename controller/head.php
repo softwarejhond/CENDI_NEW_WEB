@@ -12,3 +12,6 @@
     <link rel="stylesheet" href="css/floating-button.css">
 
     <title><?php echo ucfirst(str_replace('.php', '', basename($_SERVER['PHP_SELF']))); ?> | CENDI</title>
+    	<!-- Start of HubSpot Embed Code  chat-->
+	<script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/21270719.js"></script>
+	<!-- End of HubSpot Embed Code chat -->
