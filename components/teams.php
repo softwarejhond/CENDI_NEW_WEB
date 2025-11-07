@@ -3,8 +3,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="intro">
-                        <h6>EQUIPO</h6>
-                        <h1>CONOCE NUESTRO PERSONAL CENDI</h1>
+                        <h6>Equipo</h6>
+                        <h1>Conoce nuestro personal Cendi</h1>
                         <p class="mx-auto">Juntos convertimos talento en impacto: cada persona suma, cada idea
                             importa y cada esfuerzo construye el futuro que soñamos.</p>
                     </div>

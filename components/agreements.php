@@ -1,7 +1,7 @@
 <section class="team-section spad" id="agreements">
         <div class="container">
             <div class="section-title text-center">
-                <h3>NUESTROS CONVENIOS</h3>
+                <h3>Nuestros convenios</h3>
 
             </div>
             <div class="row" style="text-align: center;">

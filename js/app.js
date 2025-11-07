@@ -41,6 +41,31 @@ $(document).ready(function () {
         }
     })
 
+    $('#noticias-carousel').owlCarousel({
+        loop: true,
+        margin: 15,
+        nav: true,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: true,
+        navText: ["<i class='bx bx-left-arrow-alt'></i>", "<i class='bx bx-right-arrow-alt'></i>"],
+        responsive: {
+            0: {
+                items: 1,
+                nav: false
+            },
+            600: {
+                items: 2,
+                nav: false
+            },
+            1000: {
+                items: 3,
+                nav: true
+            }
+        }
+    })
+
     $('.reviews-slider').owlCarousel({
         loop: true,
         nav: false,

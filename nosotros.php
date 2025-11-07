@@ -141,7 +141,7 @@
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionInfo">
                                 <div class="accordion-body">
-                                    <embed src="DOCS/formatos/MA04-Manual-de-Convivencia-Version6.pdf" type="application/pdf" width="100%" height="500px"/>
+                                    <embed src="DOCS/MA04_Manual_de_Convivencia_Versión_7_2025.pdf" type="application/pdf" width="100%" height="500px"/>
                                 </div>
                             </div>
                         </div>
