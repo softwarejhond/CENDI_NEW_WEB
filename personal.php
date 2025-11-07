@@ -10,7 +10,7 @@
     <!-- BOTTOM NAV -->
     <?php include 'controller/navbar.php'; ?>
 
-    <section class="bg-light">
+ 	<section class="politicas-section spad pt-0">
         <div class="container">
             <div class="row">
                 <div class="col-12">
