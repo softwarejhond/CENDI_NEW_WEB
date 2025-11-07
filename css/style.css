@@ -8,6 +8,9 @@
     --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
     --brand-blue: #022964; /* Color azul institucional */
 }
+.tittles{
+    color: var(--dark);
+}
 .--brand {
   color: var(--brand);
 }

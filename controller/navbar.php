@@ -1,7 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="img/logo.png" alt="Logo CENDI" width="200" height="80" class="d-inline-block align-top">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+            
+                <img src="img/logo.png" alt="Logo CENDI" width="200" height="80" class="d-inline-block align-top ms-2">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,12 +18,16 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Institución
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#about">About</a></li>
-                            <li><a class="dropdown-item" href="#services">Services</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
-                        </ul>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="nosotros.php">Corporación CENDI</a>
+                            <a class="dropdown-item" href="TramiteActualizacion.php">Información financiera</a>
+                            <a class="dropdown-item" href="politicasDeCalidad.php">SGC</a>
+                            <a class="dropdown-item" href="trabajeConNosotros.php">Trabaje con nosotros</a>
+                            <a class="dropdown-item" href="/DOCS/MANUAL DE CONVIVENCIA ACTUALIZADO 2020.pdf" download="Manual de convicencia CENDI 2020 Bachiller">Manual de convivencia Bachillerato</a>
+                            <a class="dropdown-item" href="/DOCS/MA04 Manual de Convivencia - Versión 6.pdf" download="Manual de convicencia CENDI 2020 Tecnicos">Manual de convivencia Técnicos</a>
+                            <a class="dropdown-item" href="personal.php">Nuestro personal</a>
+                            <a class="dropdown-item" href="docentes.php">Nuestros profesores</a>
+                        </div>
                     </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
