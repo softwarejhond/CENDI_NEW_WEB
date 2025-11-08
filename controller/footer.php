@@ -20,6 +20,79 @@
         align-items: center;
         gap: 8px;
     }
+    
+        .custom-alert {
+            background-color: var(--brand);
+            color: white;
+            border: none;
+        }
+
+        .custom-alert i {
+            color: white;
+        }
+
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .whatsapp-float:hover {
+            background-color: #128C7E;
+            color: white;
+            transform: scale(1.1);
+        }
+
+        footer {
+            background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(../img/bg_banner1.jpg), #082032;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #fff;
+        }
+
+        .footer-top {
+            padding: 80px 0 40px;
+        }
+
+        .footer-bottom {
+            padding: 20px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        footer .navbar-brand {
+            color: #fff;
+        }
+
+        footer p {
+            color: #ADB3B9;
+        }
+
+        footer .social-icons a {
+            width: 50px;
+            height: 50px;
+            font-size: 20px;
+            margin: 4px;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        footer .social-icons a:hover {
+            background-color: var(--brand);
+        }
 </style>
 <div class="footer-top text-center">
     <div class="container">

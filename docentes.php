@@ -1,81 +1,109 @@
 <!doctype html>
 <html lang="es">
+
 <head>
     <?php include 'controller/head.php'; ?>
-    <title>Nuestros Profesores | CENDI</title>
+    <title>Corporación CENDI | Docentes</title>
 </head>
+
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
     <!-- TOP NAV -->
     <?php include 'controller/topnav.php'; ?>
     <!-- BOTTOM NAV -->
     <?php include 'controller/navbar.php'; ?>
+    <!-- FLOATING BUTTON -->
+    <?php include 'controller/floating-button.php'; ?>
 
-    <section class="bg-light">
+
+    <section class="bg-light" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="intro">
-                        <h1>Nuestros Profesores</h1>
-                        <p class="mx-auto">Conoce a nuestro equipo docente altamente calificado</p>
+                        <h6>Nuestros académicos</h6>
+                        <h1 style="color: #092032">Conoce nuestros docentes</h1>
+                        <p class="mx-auto">Contamos con un equipo docente altamente calificado y comprometido con la excelencia educativa</p>
                     </div>
                 </div>
-            </div>
-
-            <!-- Filtros -->
-            <div class="row mb-5">
-                <div class="col-md-12">
-                    <div class="btn-group" role="group">
-                        <button type="button" class="btn btn-brand active">Todos</button>
-                        <button type="button" class="btn btn-brand">Técnicos</button>
-                        <button type="button" class="btn btn-brand">Bachillerato</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Lista de Profesores -->
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="team-member text-center">
-                        <div class="image">
-                            <img src="img/team_1.jpg" alt="">
-                            <div class="social-icons">
-                                <a href="#"><i class="fa-solid fa-envelope"></i></a>
-                                <a href="#"><i class="fa-solid fa-graduation-cap"></i></a>
-                            </div>
-                        </div>
-                        <h5 class="mt-4">Nombre del Profesor</h5>
-                        <p>Área de Especialidad</p>
-                        <div class="areas-expertise">
-                            <span class="badge bg-primary">Matemáticas</span>
-                            <span class="badge bg-secondary">Física</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Repetir el bloque anterior para más profesores -->
-            </div>
-
-            <!-- Estadísticas -->
-            <div class="row mt-5 text-center">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="counter">
-                        <i class="fas fa-chalkboard-teacher fa-3x mb-3" style="color: var(--brand-blue)"></i>
-                        <h1>50+</h1>
-                        <p>Profesores</p>
-                    </div>
-                </div>
-                <!-- Agregar más estadísticas -->
+            <div class="row">
+                <?php
+                for ($i = 1; $i <= 28; $i++) {
+                    $duration = 1000 + (($i - 1) % 4) * 500;
+                    echo '<div class="col-lg-3 about-text">
+                        <div class="card" style="width: 100%" data-aos="zoom-in" data-aos-duration="' . $duration . '" data-aos-delay="300" data-aos-once="false">
+                            <img src="./img/teachers/' . $i . '.png" class="card-img-top" alt="Docente CENDI ' . $i . '" >
+                        </div>' . ($i % 4 == 0 ? '<br>' : '') . '
+                    </div>';
+                }
+                ?>
             </div>
         </div>
     </section>
 
-    <!-- FOOTER -->
     <footer>
-<?php include 'controller/footer.php'; ?>
-</footer>
+        <?php include 'controller/footer.php'; ?>
+    </footer>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/app.js"></script>
+
+    <style>
+        .card {
+            border: none;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            margin-bottom: 20px;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover img {
+            transform: scale(1.05);
+        }
+
+        .about-section {
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+
+        .section-title h3 {
+            color: #092032;
+            margin-bottom: 40px;
+        }
+
+        .about-text {
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .col-lg-3 {
+                padding: 0 10px;
+            }
+        }
+    </style>
 </body>
+
+</html>
+
+</section>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+
 </html>
