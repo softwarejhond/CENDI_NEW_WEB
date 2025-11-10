@@ -1,7 +1,7 @@
 <style>
     @font-face {
         font-family: 'Sparose';
-        src: url('css/fonts/fonnts.com-Sparose.ttf') format('truetype');
+        src: url('/css/font_Sparose.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
         font-display: swap;

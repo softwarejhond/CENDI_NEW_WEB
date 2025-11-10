@@ -10,53 +10,32 @@
     <!-- BOTTOM NAV -->
     <?php include 'controller/navbar.php'; ?>
 
- 	<section class="politicas-section spad pt-0">
+
+
+    <section class="bg-light" id="docentes">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="intro">
-                        <h1>Nuestro Personal Administrativo</h1>
-                        <p class="mx-auto">Conoce al equipo que hace posible nuestra labor educativa</p>
+                        <h6>Nuestro personal</h6>
+                        <h1 style="color: #092032">Conoce nuestro personal administrativo y operativo</h1>
+                        <p class="mx-auto">Contamos con un equipo administrativo y operativo altamente calificado y comprometido con la excelencia educativa</p>
                     </div>
+                </div>
+                <div class="row">
+                    <?php
+                    for ($i = 1; $i <= 19; $i++) {
+                        $duration = 1000 + (($i - 1) % 4) * 500;
+                        echo '<div class="col-lg-3 about-text">
+                        <div class="card" style="width: 100%" data-aos="zoom-in" data-aos-duration="' . $duration . '" data-aos-delay="300" data-aos-once="false">
+                            <img src="./img/member/' . $i . '.png" class="card-img-top" alt="Docente CENDI ' . $i . '" >
+                        </div>' . ($i % 4 == 0 ? '<br>' : '') . '
+                    </div>';
+                    }
+                    ?>
                 </div>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="team-member text-center">
-                        <div class="image">
-                            <img src="img/team_1.jpg" alt="">
-                            <div class="social-icons">
-                                <a href="#"><i class="fa-solid fa-envelope"></i></a>
-                                <a href="#"><i class="fa-solid fa-phone"></i></a>
-                            </div>
-                        </div>
-                        <h5 class="mt-4">Nombre del Funcionario</h5>
-                        <p>Cargo Administrativo</p>
-                    </div>
-                </div>
-                <!-- Repetir el bloque anterior para más personal -->
-            </div>
-
-            <div class="row mt-5">
-                <div class="col-12">
-                    <div class="intro">
-                        <h2>Departamentos</h2>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body text-center">
-                            <i class="fas fa-user-tie fa-3x mb-3" style="color: var(--brand-blue)"></i>
-                            <h5>Dirección Académica</h5>
-                            <p>Gestión y supervisión académica</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Agregar más departamentos -->
-            </div>
-        </div>
     </section>
-
     <!-- FOOTER -->
     <footer>
 <?php include 'controller/footer.php'; ?>
