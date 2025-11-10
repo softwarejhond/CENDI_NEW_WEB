@@ -58,15 +58,16 @@
         }
 
         footer {
-            background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(../img/bg_banner1.jpg), #082032;
+            background: linear-gradient(0deg, rgba(8, 32, 50, 0.95), rgba(8, 32, 50, 0.95)), url(../img/bg_banner1.jpg), #082032;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
             color: #fff;
+            padding: 70px 0 20px;
         }
 
         .footer-top {
-            padding: 80px 0 40px;
+            padding-bottom: 40px;
         }
 
         .footer-bottom {
@@ -74,42 +75,137 @@
             border-top: 1px solid rgba(255, 255, 255, 0.1);
         }
 
-        footer .navbar-brand {
-            color: #fff;
-        }
-
         footer p {
             color: #ADB3B9;
+            font-size: 0.95rem;
+            line-height: 1.8;
+        }
+
+        footer h5 {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        footer h5::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 50px;
+            height: 2px;
+            background-color: var(--brand);
+        }
+
+        footer .social-icons {
+            display: flex;
+            gap: 10px;
         }
 
         footer .social-icons a {
-            width: 50px;
-            height: 50px;
-            font-size: 20px;
-            margin: 4px;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
             background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            transition: all 0.3s ease;
         }
 
         footer .social-icons a:hover {
             background-color: var(--brand);
+            transform: translateY(-3px);
+        }
+
+        footer a {
+            color: #ADB3B9;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        footer a:hover {
+            color: var(--brand);
+        }
+
+        .certification-logos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        @media (max-width: 768px) {
+            footer {
+                text-align: center;
+            }
+
+            footer h5::after {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            footer .social-icons {
+                justify-content: center;
+            }
+
+            .certification-logos {
+                margin-top: 2rem;
+            }
         }
 </style>
-<div class="footer-top text-center">
+<div class="footer-top">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6 text-center">
-                <div class="mb-4">
-                    <img src="img/logo.png" alt="Logo CENDI" class="img-fluid" style="max-width: 200px; filter: brightness(0) invert(1);">
+        <div class="row">
+            <!-- Columna 1: Logo, dirección y mensaje -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                <div class="text-center text-md-start">
+                    <img src="img/logo.png" alt="Logo CENDI" class="img-fluid mb-4" style="max-width: 180px; filter: brightness(0) invert(1);">
+                    <p class="mb-3"><i class="fas fa-map-marker-alt me-2"></i>Carrera 50 # 58-93, Centro Comercial Australia</p>
+                    <p class="mb-4">"La educación es el arma más poderosa que puedes usar para cambiar el mundo."<br><b>— Nelson Mandela</b></p>
+                    <div class="social-icons mb-4">
+                        <a href="https://www.facebook.com/InstitutoCENDI/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/cendi.medellin/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://wa.me/573122143744" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                    </div>
                 </div>
-                <p>"La educación es el arma más poderosa que puedes usar para cambiar el mundo."<br><b>— Nelson Mandela</b></p>
-                <div class="col-auto social-icons">
-                    <a href="https://www.facebook.com/InstitutoCENDI/" target="_blank"><i class='bx bxl-facebook'></i></a>
-                    <a href="https://www.instagram.com/cendi.medellin/" target="_blank"><i class='bx bxl-instagram'></i></a>
-                    <a href="https://wa.me/573122143744" target="_blank"><i class='bx bxl-whatsapp'></i></a>
-                </div>
-                <div class="col-auto conditions-section">
-                    <a href="#">Política de seguridad y privacidad de la información</a>
+            </div>
 
+            <!-- Columna 2: Horarios y contacto -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                <h5 class="text-white mb-4">Horarios de Atención</h5>
+                <p class="mb-2"><i class="far fa-clock me-2"></i>Lunes a Viernes: 8:00 AM - 6:00 PM</p>
+                <p class="mb-2"><i class="far fa-clock me-2"></i>Sábados: 8:00 AM - 1:00 PM</p>
+                <h5 class="text-white mb-3 mt-4">Líneas de Atención</h5>
+                <p class="mb-2"><i class="fas fa-phone-alt me-2"></i>(604) 444 02 06</p>
+                <p class="mb-2"><i class="fab fa-whatsapp me-2"></i>312 214 37 44</p>
+                <p class="mb-2"><i class="fas fa-phone-alt me-2"></i>604 512 47 74</p>
+            </div>
+
+            <!-- Columna 3: Correspondencia -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                <h5 class="text-white mb-4">Correspondencia</h5>
+                <p class="mb-2"><i class="far fa-envelope me-2"></i>info@cendi.edu.co</p>
+                <p class="mb-2"><i class="far fa-envelope me-2"></i>admisiones@cendi.edu.co</p>
+                <p class="mb-2"><i class="far fa-envelope me-2"></i>secretaria@cendi.edu.co</p>
+                <div class="mt-4">
+                    <h5 class="text-white mb-3">Enlaces Rápidos</h5>
+                    <p class="mb-2"><a href="#" class="text-white-50">Política de Privacidad</a></p>
+                    <p class="mb-2"><a href="#" class="text-white-50">Términos y Condiciones</a></p>
+                </div>
+            </div>
+
+            <!-- Columna 4: Certificaciones -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                <h5 class="text-white mb-4">Certificaciones</h5>
+                <div class="certification-logos">
+                    <img src="img/icons/logo-sena.png" alt="SENA" class="img-fluid mb-3" style="height: 60px; width: auto; filter: brightness(0) invert(1);">
+                    <img src="img/icons/mejores.png" alt="Certificación de Calidad" class="img-fluid mb-3" style="height: 60px; width: auto; filter: brightness(0) invert(1);">
+                    <div class="mt-3">
+                        <img src="img/logosCelac/celac-certificacion.png" alt="CELAC" class="img-fluid" style="height: 80px; width: auto; filter: brightness(0) invert(1);">
+                    </div>
                 </div>
             </div>
         </div>
