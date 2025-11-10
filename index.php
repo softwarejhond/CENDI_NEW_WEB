@@ -46,10 +46,18 @@
 
     <!-- Modal -->
     <?php include 'components/modals/contact.php'; ?>
+    <!-- Herramientas de Accesibilidad -->
+    <?php include 'components/accessibility-tools.php'; ?>
+    
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/accessibility.js"></script>
+    
+    <!-- Font Awesome para íconos de accesibilidad -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/accessibility.css">
 </body>
 
 </html>

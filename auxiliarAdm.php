@@ -202,6 +202,9 @@
     <script src="js/app.js"></script>
 
 
+    <?php include 'components/accessibility-tools.php'; ?>
+    <link rel="stylesheet" href="css/accessibility.css">
+    <script src="js/accessibility.js"></script>
 </body>
 
 </html>
