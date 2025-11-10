@@ -13,32 +13,38 @@
                             <div class="col-lg-8">
                                 <form class="p-lg-5 col-12 row g-3">
                                     <div>
-                                        <h1>Get in touch</h1>
-                                        <p>Fell free to contact us and we will get back to you as soon as possible</p>
+                                        <h1>Contáctanos</h1>
+                                        <p>No dudes en escribirnos, te responderemos lo antes posible</p>
                                     </div>
                                     <div class="col-lg-6">
-                                        <label for="userName" class="form-label">First name</label>
-                                        <input type="text" class="form-control" placeholder="Jon" id="userName"
-                                            aria-describedby="emailHelp">
+                                        <label for="firstName" class="form-label">Nombres</label>
+                                        <input type="text" class="form-control" placeholder="Juan" id="firstName"
+                                            aria-describedby="firstNameHelp">
                                     </div>
                                     <div class="col-lg-6">
-                                        <label for="userName" class="form-label">Last name</label>
-                                        <input type="text" class="form-control" placeholder="Doe" id="userName"
-                                            aria-describedby="emailHelp">
+                                        <label for="lastName" class="form-label">Apellidos</label>
+                                        <input type="text" class="form-control" placeholder="Pérez" id="lastName"
+                                            aria-describedby="lastNameHelp">
                                     </div>
                                     <div class="col-12">
-                                        <label for="userName" class="form-label">Email address</label>
-                                        <input type="email" class="form-control" placeholder="Johndoe@example.com"
-                                            id="userName" aria-describedby="emailHelp">
+                                        <label for="userEmail" class="form-label">Correo electrónico</label>
+                                        <input type="email" class="form-control" placeholder="juan.perez@ejemplo.com"
+                                            id="userEmail" aria-describedby="emailHelp">
                                     </div>
                                     <div class="col-12">
-                                        <label for="exampleInputEmail1" class="form-label">Enter Message</label>
-                                        <textarea name="" placeholder="This is looking great and nice."
-                                            class="form-control" id="" rows="4"></textarea>
+                                        <label for="userPhone" class="form-label">Teléfono</label>
+                                        <input type="tel" class="form-control" placeholder="300 123 4567"
+                                            id="userPhone" aria-describedby="phoneHelp"
+                                            pattern="[0-9\s]{10,}" title="Por favor ingresa un número de teléfono válido">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="userMessage" class="form-label">Mensaje</label>
+                                        <textarea name="message" placeholder="Escribe tu mensaje aquí..."
+                                            class="form-control" id="userMessage" rows="4"></textarea>
                                     </div>
 
                                     <div class="col-12">
-                                        <button type="submit" class="btn btn-brand">Send Message</button>
+                                        <button type="submit" class="btn btn-brand">Enviar Mensaje</button>
                                     </div>
                                 </form>
                             </div>

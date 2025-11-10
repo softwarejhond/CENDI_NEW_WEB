@@ -56,10 +56,10 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="serviciosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Servicios
+                        <a class="nav-link dropdown-toggle" href="#" id="seminariosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Seminarios
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="serviciosDropdown">
+                        <div class="dropdown-menu" aria-labelledby="seminariosDropdown">
                             <a class="dropdown-item" href="#matriculas">Matrículas</a>
                             <a class="dropdown-item" href="#horarios">Horarios</a>
                             <a class="dropdown-item" href="#certificados">Certificados</a>

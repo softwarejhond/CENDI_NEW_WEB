@@ -163,12 +163,12 @@
             <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
                 <div class="text-center text-md-start">
                     <img src="img/logo.png" alt="Logo CENDI" class="img-fluid mb-4" style="max-width: 180px; filter: brightness(0) invert(1);">
-                    <p class="mb-3"><i class="fas fa-map-marker-alt me-2"></i>Carrera 50 # 58-93, Centro Comercial Australia</p>
+                    <p class="mb-3"><i class="fas fa-map-marker-alt me-2"></i>Centro Comercial Australia<br>Carrera 50 N° 58-93<br>Medellín, Colombia</p>
                     <p class="mb-4">"La educación es el arma más poderosa que puedes usar para cambiar el mundo."<br><b>— Nelson Mandela</b></p>
                     <div class="social-icons mb-4">
-                        <a href="https://www.facebook.com/InstitutoCENDI/" target="_blank"><i class='bx bxl-facebook'></i></a>
-                        <a href="https://www.instagram.com/cendi.medellin/" target="_blank"><i class='bx bxl-instagram'></i></a>
-                        <a href="https://wa.me/573122143744" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                        <a href="https://www.facebook.com/InstitutoCENDI/" target="_blank" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/cendi.medellin/" target="_blank" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://wa.me/573122143744" target="_blank" aria-label="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
                     </div>
                 </div>
             </div>
@@ -176,22 +176,22 @@
             <!-- Columna 2: Horarios y contacto -->
             <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
                 <h5 class="text-white mb-4">Horarios de Atención</h5>
-                <p class="mb-2"><i class="far fa-clock me-2"></i>Lunes a Viernes: 8:00 AM - 6:00 PM</p>
-                <p class="mb-2"><i class="far fa-clock me-2"></i>Sábados: 8:00 AM - 1:00 PM</p>
-                <h5 class="text-white mb-3 mt-4">Líneas de Atención</h5>
-                <p class="mb-2"><i class="fas fa-phone-alt me-2"></i>(604) 444 02 06</p>
-                <p class="mb-2"><i class="fab fa-whatsapp me-2"></i>312 214 37 44</p>
-                <p class="mb-2"><i class="fas fa-phone-alt me-2"></i>604 512 47 74</p>
+                <p class="mb-2"><i class="far fa-clock me-2"></i>Lunes a Viernes:<br>8:00 AM a 6:00 PM</p>
+                <p class="mb-2"><i class="far fa-clock me-2"></i>Sábados:<br>8:00 AM a 1:00 PM</p>
+                <h5 class="text-white mb-3 mt-4">Líneas de Contacto</h5>
+                <p class="mb-2"><i class="fas fa-phone-alt me-2"></i>PBX: (604) 444 02 06</p>
+                <p class="mb-2"><i class="fab fa-whatsapp me-2"></i>WhatsApp: 312 214 37 44</p>
+                <p class="mb-2"><i class="fas fa-phone-alt me-2"></i>Teléfono: 604 512 47 74</p>
             </div>
 
-            <!-- Columna 3: Correspondencia -->
+            <!-- Columna 3: Correo Electrónico -->
             <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                <h5 class="text-white mb-4">Correspondencia</h5>
-                <p class="mb-2"><i class="far fa-envelope me-2"></i>info@cendi.edu.co</p>
-                <p class="mb-2"><i class="far fa-envelope me-2"></i>admisiones@cendi.edu.co</p>
-                <p class="mb-2"><i class="far fa-envelope me-2"></i>secretaria@cendi.edu.co</p>
+                <h5 class="text-white mb-4">Correo Electrónico</h5>
+                <p class="mb-2"><i class="far fa-envelope me-2"></i>Información General:<br>info@cendi.edu.co</p>
+                <p class="mb-2"><i class="far fa-envelope me-2"></i>Admisiones:<br>admisiones@cendi.edu.co</p>
+                <p class="mb-2"><i class="far fa-envelope me-2"></i>Secretaría:<br>secretaria@cendi.edu.co</p>
                 <div class="mt-4">
-                    <h5 class="text-white mb-3">Enlaces Rápidos</h5>
+                    <h5 class="text-white mb-3">Enlaces de Interés</h5>
                     <p class="mb-2"><a href="#" class="text-white-50">Política de Privacidad</a></p>
                     <p class="mb-2"><a href="#" class="text-white-50">Términos y Condiciones</a></p>
                 </div>
@@ -199,12 +199,19 @@
 
             <!-- Columna 4: Certificaciones -->
             <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                <h5 class="text-white mb-4">Certificaciones</h5>
+                <h5 class="text-white mb-4">Certificaciones y Acreditaciones</h5>
                 <div class="certification-logos">
-                    <img src="img/icons/logo-sena.png" alt="SENA" class="img-fluid mb-3" style="height: 60px; width: auto; filter: brightness(0) invert(1);">
-                    <img src="img/icons/mejores.png" alt="Certificación de Calidad" class="img-fluid mb-3" style="height: 60px; width: auto; filter: brightness(0) invert(1);">
-                    <div class="mt-3">
-                        <img src="img/logosCelac/celac-certificacion.png" alt="CELAC" class="img-fluid" style="height: 80px; width: auto; filter: brightness(0) invert(1);">
+                    <div class="mb-3">
+                        <img src="img/icons/logo-sena.png" alt="Certificación SENA" class="img-fluid mb-2" style="height: 60px; width: auto; filter: brightness(0) invert(1);">
+                        <p class="small mb-0">Certificación SENA</p>
+                    </div>
+                    <div class="mb-3">
+                        <img src="img/icons/mejores.png" alt="Certificado de Alta Calidad" class="img-fluid mb-2" style="height: 60px; width: auto; filter: brightness(0) invert(1);">
+                        <p class="small mb-0">Certificado de Alta Calidad</p>
+                    </div>
+                    <div class="mb-3">
+                        <img src="img/logosCelac/celac-certificacion.png" alt="Certificación CELAC" class="img-fluid mb-2" style="height: 80px; width: auto; filter: brightness(0) invert(1);">
+                        <p class="small mb-0">Certificación CELAC</p>
                     </div>
                 </div>
             </div>
