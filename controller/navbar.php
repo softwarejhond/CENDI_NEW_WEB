@@ -34,7 +34,7 @@
                             Programas técnicos
                         </a>
                         <div class="dropdown-menu" aria-labelledby="programasDropdown">
-                            <label class="dropdown-item disabled color-naranja fw-bold" style="color:#F08006">PROGRAMAS ADMINISTRATIVOS:</label>
+                            <label class="dropdown-item disabled color-naranja fw-bold" style="color:#ff4d29">PROGRAMAS ADMINISTRATIVOS:</label>
                             <a class="dropdown-item" href="auxiliarContable.php">Técnico Laboral como Auxiliar Contable</a>
                             <a class="dropdown-item" href="auxiliarAdm.php">Técnico Laboral como Auxiliar Administrativo</a>
                             <a class="dropdown-item" href="auxiliarMedico.php">Técnico Laboral en Secretaria(o) Médica (o)</a>
@@ -46,12 +46,12 @@
                             <a class="dropdown-item" href="desarrolloSoftware.php">Técnico Laboral como Asistente en Desarrollo de Software</a>
 
                             <div class="dropdown-divider"></div>
-                            <label class="dropdown-item disabled color-naranja fw-bold" style="color:#F08006">PROGRAMAS DE SALUD:</label>
+                            <label class="dropdown-item disabled color-naranja fw-bold" style="color:#ff4d29">PROGRAMAS DE SALUD:</label>
                             <a class="dropdown-item" href="auxiliarFarmaceutico.php">Técnico Laboral Auxiliar en Servicios Farmacéuticos</a>
                             <a class="dropdown-item" href="auxiliarSalud.php">Técnico Laboral Auxiliar Administrativo en Salud</a>
 
                             <div class="dropdown-divider"></div>
-                            <label class="dropdown-item disabled color-naranja fw-bold" style="color:#F08006">PROGRAMA DE CONOCIMIENTOS ACADÉMICOS:</label>
+                            <label class="dropdown-item disabled color-naranja fw-bold" style="color:#ff4d29">PROGRAMA DE CONOCIMIENTOS ACADÉMICOS:</label>
                             <a class="dropdown-item" href="ingles.php">Inglés</a>
                         </div>
                     </li>
