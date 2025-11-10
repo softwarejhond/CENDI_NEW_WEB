@@ -4,7 +4,7 @@
         src: url('/css/font_Sparose.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
-        font-display: swap;
+        font-display: swap; 
     }
 
     .eagle-link-footer {
