@@ -39,10 +39,10 @@
                             <a class="dropdown-item" href="auxiliarAdm.php">Técnico Laboral como Auxiliar Administrativo</a>
                             <a class="dropdown-item" href="auxiliarMedico.php">Técnico Laboral en Secretaria(o) Médica (o)</a>
                             <a class="dropdown-item" href="auxiliarSecretariado.php">Técnico Laboral como Secretaria General</a>
-                            <a class="dropdown-item" href="auxiliarRecursoHumanos.php">Técnico Laboral Auxiliar en Recursos Humanos</a>
+                            <a class="dropdown-item" href="auxiliarRecursosHumanos.php">Técnico Laboral Auxiliar en Recursos Humanos</a>
                             <a class="dropdown-item" href="auxiliarServicioCliente.php">Técnico Laboral Auxiliar en Servicio al Cliente y Telemercadeo</a>
                             <a class="dropdown-item" href="auxiliarSistemas.php">Técnico laboral como auxiliar de sistemas informáticos</a>
-                            <a class="dropdown-item" href="recepcionhotelera.php">Técnico Laboral como Empleado de Recepción Hotelera</a>
+                            <a class="dropdown-item" href="recepcionHotelera.php">Técnico Laboral como Empleado de Recepción Hotelera</a>
                             <a class="dropdown-item" href="desarrolloSoftware.php">Técnico Laboral como Asistente en Desarrollo de Software</a>
 
                             <div class="dropdown-divider"></div>
@@ -60,10 +60,13 @@
                             Seminarios
                         </a>
                         <div class="dropdown-menu" aria-labelledby="seminariosDropdown">
-                            <a class="dropdown-item" href="#matriculas">Matrículas</a>
-                            <a class="dropdown-item" href="#horarios">Horarios</a>
-                            <a class="dropdown-item" href="#certificados">Certificados</a>
-                            <a class="dropdown-item" href="#biblioteca">Biblioteca</a>
+                            <a class="dropdown-item" href="soporteVital.php">PRIMEROS AUXILIOS - SOPORTE VITAL BÁSICO</a>
+                            <a class="dropdown-item" href="tics.php">TIC´S</a>
+                            <a class="dropdown-item" href="facturacionSalud.php">FATURACIÓN EN SALUD</a>
+                            <a class="dropdown-item" href="aseoDomestico.php">TÉCNICAS DE ASEO DOMÉSTICO</a>
+                            <a class="dropdown-item" href="sgsst.php">SG-SST</a>
+                            <a class="dropdown-item" href="manejoNomina.php">MANEJO DE NÓMINA Y SEGURIDAD SOCIAL</a>
+                            <a class="dropdown-item" href="manejoClientes.php">MANEJO DE CLIENTES CON DIFICULTADES, QUEJAS Y RECLAMOS</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">

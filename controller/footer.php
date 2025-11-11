@@ -179,17 +179,18 @@
                 <p class="mb-2"><i class="far fa-clock me-2"></i>Lunes a Viernes:<br>8:00 AM a 6:00 PM</p>
                 <p class="mb-2"><i class="far fa-clock me-2"></i>Sábados:<br>8:00 AM a 1:00 PM</p>
                 <h5 class="text-white mb-3 mt-4">Líneas de Contacto</h5>
-                <p class="mb-2"><i class="fas fa-phone-alt me-2"></i>PBX: (604) 444 02 06</p>
-                <p class="mb-2"><i class="fab fa-whatsapp me-2"></i>WhatsApp: 312 214 37 44</p>
-                <p class="mb-2"><i class="fas fa-phone-alt me-2"></i>Teléfono: 604 512 47 74</p>
+                <p class="mb-2"><i class="fas fa-phone-alt me-2"></i>Teléfono: (604) 4441808</p>
+                <p class="mb-2"><i class="fab fa-whatsapp me-2"></i>WhatsApp: 312 214 3744</p>
+                <p class="mb-2"><i class="fas fa-phone-alt me-2"></i>Rectoría Técnicos: (604) 444 1808 Ext. 117</p>
+                 <p class="mb-2"><i class="fas fa-phone-alt me-2"></i>Bachillerato: (604) 4441808 Ext. 105</p>
             </div>
 
             <!-- Columna 3: Correo Electrónico -->
             <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
                 <h5 class="text-white mb-4">Correo Electrónico</h5>
-                <p class="mb-2"><i class="far fa-envelope me-2"></i>Información General:<br>info@cendi.edu.co</p>
-                <p class="mb-2"><i class="far fa-envelope me-2"></i>Admisiones:<br>admisiones@cendi.edu.co</p>
-                <p class="mb-2"><i class="far fa-envelope me-2"></i>Secretaría:<br>secretaria@cendi.edu.co</p>
+                <p class="mb-2"><i class="far fa-envelope me-2"></i>Rectoría Técnicos:<br>rectoriatecnicos@cendi.edu.co</p>
+                <p class="mb-2"><i class="far fa-envelope me-2"></i>Coordinación Bachillerato:<br>rectoria@cendi.edu.co</p>
+                <p class="mb-2"><i class="far fa-envelope me-2"></i>Compras:<br>compraseinfraestructura@cendi.edu.co</p>
                 <div class="mt-4">
                     <h5 class="text-white mb-3">Enlaces de Interés</h5>
                     <p class="mb-2"><a href="#" class="text-white-50">Política de Privacidad</a></p>
@@ -199,19 +200,18 @@
 
             <!-- Columna 4: Certificaciones -->
             <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                <h5 class="text-white mb-4">Certificaciones y Acreditaciones</h5>
+                <h5 class="text-white mb-4">Certificaciones de calidad</h5>
                 <div class="certification-logos">
-                    <div class="mb-3">
-                        <img src="img/icons/logo-sena.png" alt="Certificación SENA" class="img-fluid mb-2" style="height: 60px; width: auto; filter: brightness(0) invert(1);">
-                        <p class="small mb-0">Certificación SENA</p>
+               
+                 
+                    <div class="mb-3 bg-white">
+                        <img src="img/logosCelac/calidad.png" alt="Certificación CELAC" class="img-fluid mb-2" style=" width: auto; height: 120px; ">
+                       
+                          <img src="img/icons/mejores.png" alt="Certificación CELAC" class="img-fluid mb-2" style=" width: auto; height: 120px; ">
+                
                     </div>
-                    <div class="mb-3">
-                        <img src="img/icons/mejores.png" alt="Certificado de Alta Calidad" class="img-fluid mb-2" style="height: 60px; width: auto; filter: brightness(0) invert(1);">
-                        <p class="small mb-0">Certificado de Alta Calidad</p>
-                    </div>
-                    <div class="mb-3">
-                        <img src="img/logosCelac/celac-certificacion.png" alt="Certificación CELAC" class="img-fluid mb-2" style="height: 80px; width: auto; filter: brightness(0) invert(1);">
-                        <p class="small mb-0">Certificación CELAC</p>
+                        <div class="mb-3">
+                       <p class="small mb-0">VIGILADA POR SECRETARÍA DE EDUCACIÓN DE MEDELLÍN</p>
                     </div>
                 </div>
             </div>
