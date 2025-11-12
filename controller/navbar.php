@@ -60,13 +60,13 @@
                             Seminarios
                         </a>
                         <div class="dropdown-menu" aria-labelledby="seminariosDropdown">
-                            <a class="dropdown-item" href="soporteVital.php">PRIMEROS AUXILIOS - SOPORTE VITAL BÁSICO</a>
-                            <a class="dropdown-item" href="tics.php">TIC´S</a>
-                            <a class="dropdown-item" href="facturacionSalud.php">FATURACIÓN EN SALUD</a>
-                            <a class="dropdown-item" href="aseoDomestico.php">TÉCNICAS DE ASEO DOMÉSTICO</a>
+                            <a class="dropdown-item" href="soporteVital.php">Primeros auxilios - soporte vital básico</a>
+                            <a class="dropdown-item" href="tics.php">Tic´s</a>
+                            <a class="dropdown-item" href="facturacionSalud.php">Faturación en salud</a>
+                            <a class="dropdown-item" href="aseoDomestico.php">Técnicas de aseo doméstico</a>
                             <a class="dropdown-item" href="sgsst.php">SG-SST</a>
-                            <a class="dropdown-item" href="manejoNomina.php">MANEJO DE NÓMINA Y SEGURIDAD SOCIAL</a>
-                            <a class="dropdown-item" href="manejoClientes.php">MANEJO DE CLIENTES CON DIFICULTADES, QUEJAS Y RECLAMOS</a>
+                            <a class="dropdown-item" href="manejoNomina.php">Manejo de nómina y seguridad social</a>
+                            <a class="dropdown-item" href="manejoClientes.php">Manejo de clientes con dificultades, quejas y reclamos</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
