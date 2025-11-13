@@ -1,0 +1,55 @@
+
+.floating-button {
+    position: fixed;
+    top: 80vh;
+    right: 15px;
+    z-index: 1000;
+}
+.floating-menu {
+    position: fixed;
+    top: 80vh;
+    right: 100px;
+    background: #022964;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(13, 110, 253, 0.3);
+    display: none;
+    z-index: 999;
+    min-width: 200px;
+}
+
+.floating-menu.show {
+    display: block;
+}
+
+.floating-menu a {
+    display: block;
+    padding: 12px 24px;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s;
+    
+}
+
+.floating-menu a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.floating-menu a i {
+    margin-right: 10px;
+}
+
+.btn-float {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.btn-float:hover {
+    transform: scale(1.1);
+}
