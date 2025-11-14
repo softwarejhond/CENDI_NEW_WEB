@@ -25,19 +25,19 @@
                         <p class="mx-auto">Contamos con un equipo docente altamente calificado y comprometido con la excelencia educativa</p>
                     </div>
                 </div>
-            <div class="row">
-                <?php
-                for ($i = 1; $i <= 28; $i++) {
-                    $duration = 1000 + (($i - 1) % 4) * 500;
-                    echo '<div class="col-lg-3 about-text">
+                <div class="row">
+                    <?php
+                    for ($i = 1; $i <= 28; $i++) {
+                        $duration = 1000 + (($i - 1) % 4) * 500;
+                        echo '<div class="col-lg-3 about-text">
                         <div class="card" style="width: 100%" data-aos="zoom-in" data-aos-duration="' . $duration . '" data-aos-delay="300" data-aos-once="false">
                             <img src="./img/teachers/' . $i . '.png" class="card-img-top" alt="Docente CENDI ' . $i . '" >
                         </div>' . ($i % 4 == 0 ? '<br>' : '') . '
                     </div>';
-                }
-                ?>
+                    }
+                    ?>
+                </div>
             </div>
-        </div>
     </section>
 
     <footer>
@@ -93,20 +93,15 @@
             }
         }
     </style>
+    <?php include 'components/modals/contact.php'; ?>
     <?php include 'components/accessibility-tools.php'; ?>
     <link rel="stylesheet" href="css/accessibility.css">
     <script src="js/accessibility.js"></script>
-</body>
 
-</html>
-
-</section>
-
-
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/app.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

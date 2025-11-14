@@ -8,6 +8,9 @@
         <a href="https://site3.q10.com/login?ReturnUrl=%2F&aplentId=d0e037d5-22c3-4082-b55e-d30628819936" target="_blank">
             <i class='bx bxl-whatsapp'></i> Q10 Técnicos
         </a>
+           <a href="https://site2.q10.com/login?ReturnUrl=%2F&aplentId=c866b1f7-b5a4-4146-a6d5-eda3de6bdea9" target="_blank">
+            <i class='bx bxl-whatsapp'></i> Q10 Bachillerato
+        </a>
         <a href="https://site2.q10.com/login?ReturnUrl=%2F&aplentId=c866b1f7-b5a4-4146-a6d5-eda3de6bdea9" target="_blank">
             <i class='bx bxs-book'></i> Q10 Bachillerato
         </a>

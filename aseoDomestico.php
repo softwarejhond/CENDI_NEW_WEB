@@ -118,8 +118,8 @@
                         <li>Ambientadores Tema</li>
                     </ul>
 
-                    <h2 class="fw-bold text-dark mb-3">Costo por persona:</h2>
-                    <p class="display-6 text-success fw-bold">$75.000</p>
+                    <!-- <h2 class="fw-bold text-dark mb-3">Costo por persona:</h2>
+                    <p class="display-6 text-success fw-bold">$75.000</p> -->
                     
                     <ul class="list-unstyled">
                         <li><span class="text-success fw-bold">*</span> El costo no incluye el kit*</li>
@@ -143,6 +143,7 @@
     <script src="js/app.js"></script>
 
 
+    <?php include 'components/modals/contact.php'; ?>
     <?php include 'components/accessibility-tools.php'; ?>
     <link rel="stylesheet" href="css/accessibility.css">
     <script src="js/accessibility.js"></script>

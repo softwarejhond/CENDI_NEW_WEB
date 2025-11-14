@@ -181,9 +181,9 @@
                         <p class="mb-4">Supervisada por Secretaría de Educación de Medellín</p>
                     </div>
                     <div class="d-flex justify-content-center align-items-center flex-wrap gap-4">
-                        <img src="img/icons/logo-sena.png" alt="logo sena" class="img-fluid" style="height: 60px; width: auto;">
-                        <img src="img/icons/mejores.png" alt="mejores" class="img-fluid" style="height: 60px; width: auto;">
-                        <img src="img/logosCelac/celac-aux-admi.png" alt="celac" class="img-fluid" style="height: 80px; width: auto;">
+                        <img src="img/icons/logo-sena.png" alt="logo sena" class="img-fluid" style="height: 80px; width: auto;">
+                        <img src="img/icons/mejores.png" alt="mejores" class="img-fluid" style="height: 80px; width: auto;">
+                        <img src="img/logosCelac/celac-auxiliar-administrativo.png" alt="celac" class="img-fluid" style="height: 100px; width: auto;">
                     </div>
                 </div>
             </div>
@@ -202,6 +202,7 @@
     <script src="js/app.js"></script>
 
 
+    <?php include 'components/modals/contact.php'; ?>
     <?php include 'components/accessibility-tools.php'; ?>
     <link rel="stylesheet" href="css/accessibility.css">
     <script src="js/accessibility.js"></script>

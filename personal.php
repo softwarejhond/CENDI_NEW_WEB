@@ -9,6 +9,7 @@
     <?php include 'controller/topnav.php'; ?>
     <!-- BOTTOM NAV -->
     <?php include 'controller/navbar.php'; ?>
+    <?php include 'controller/floating-button.php'; ?>
 
 
 
@@ -45,6 +46,7 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/app.js"></script>
+    <?php include 'components/modals/contact.php'; ?>
     <?php include 'components/accessibility-tools.php'; ?>
     <link rel="stylesheet" href="css/accessibility.css">
     <script src="js/accessibility.js"></script>

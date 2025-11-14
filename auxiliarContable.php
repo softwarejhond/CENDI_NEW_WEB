@@ -99,17 +99,17 @@
                                             <h3 class="text-primary mb-4">Perfil de Egreso</h3>
                                             <p class="mb-4">Ocupaciones en las que el egresado puede desempeñarse:</p>
                                             <ul class="list-unstyled">
-                                                <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Auxiliar Administrativo en empresas públicas y privadas</li>
-                                                <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Asistente de Gerencia</li>
-                                                <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Auxiliar de Oficina</li>
-                                                <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Recepcionista</li>
-                                                <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Auxiliar de Archivo y Documentación</li>
+                                                <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Cajeros de servicios financieros</li>
+                                                <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Auxiliar del contador</li>
+                                                <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Auxiliar de revisoría Fiscal</li>
+                                                <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Asistentes financieros</li>
+                                                <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Auxiliares de cartera y cobranzas</li>
                                             </ul>
                                         </div>
                                         <div class="tab-pane fade" id="plan" role="tabpanel" aria-labelledby="list-profile-list">
                                             <h3 class="text-primary mb-4">Plan de Estudio</h3>
                                             <p class="text-justify">
-                                                El programa Técnico Laboral como Auxiliar Administrativo está diseñado para formar profesionales capaces de apoyar la gestión empresarial en cualquier tipo de organización. El programa cuenta con un total de 1.200 horas, distribuidas en tres niveles de formación:
+                                                El programa Técnico Laboral como Auxiliar Contable está diseñado para formar profesionales capaces de apoyar la gestión empresarial en cualquier tipo de organización. El programa cuenta con un total de 1.200 horas, distribuidas en tres niveles de formación:
                                             </p>
                                             <ul class="list-unstyled">
                                                 <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>50% teórico (600 horas)</li>
@@ -136,22 +136,20 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <ul class="list-unstyled">
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Gestión Documental</li>
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Fundamentos de Administración</li>
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Servicio al Cliente</li>
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Técnicas de Oficina</li>
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Archivo y Correspondencia</li>
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Informática Básica</li>
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Contabilidad Básica</li>
+                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Contabilidad General</li>
+                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Legislación Tributaria</li>
+                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Legislación Laboral</li>
+                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Matemática Financiera</li>
+                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Costos y Presupuestos</li>
+                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Elaborar Documentos</li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <ul class="list-unstyled">
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Excel Avanzado</li>
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Legislación Laboral</li>
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Comunicación Empresarial</li>
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Etiqueta y Protocolo</li>
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Gestión de Calidad</li>
+                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Organización Documental</li>
+                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Informática I</li>
+                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Informática II</li>
+                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Informática III</li>
                                                         <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Asesoría de Práctica</li>
                                                         <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Práctica Externa</li>
                                                     </ul>
@@ -183,9 +181,9 @@
                         <p class="mb-4">Supervisada por Secretaría de Educación de Medellín</p>
                     </div>
                     <div class="d-flex justify-content-center align-items-center flex-wrap gap-4">
-                        <img src="img/icons/logo-sena.png" alt="logo sena" class="img-fluid" style="height: 60px; width: auto;">
-                        <img src="img/icons/mejores.png" alt="mejores" class="img-fluid" style="height: 60px; width: auto;">
-                        <img src="img/logosCelac/celac-auxiliar-contable.png" alt="celac" class="img-fluid" style="height: 80px; width: auto;">
+                        <img src="img/icons/logo-sena.png" alt="logo sena" class="img-fluid" style="height: 80px; width: auto;">
+                        <img src="img/icons/mejores.png" alt="mejores" class="img-fluid" style="height: 80px; width: auto;">
+                        <img src="img/logosCelac/celac-auxiliar-contable.png" alt="celac" class="img-fluid" style="height: 100px; width: auto;">
                     </div>
                 </div>
             </div>
@@ -204,6 +202,7 @@
     <script src="js/app.js"></script>
 
 
+    <?php include 'components/modals/contact.php'; ?>
     <?php include 'components/accessibility-tools.php'; ?>
     <link rel="stylesheet" href="css/accessibility.css">
     <script src="js/accessibility.js"></script>

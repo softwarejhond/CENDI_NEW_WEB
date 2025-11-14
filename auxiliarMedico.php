@@ -3,7 +3,7 @@
 
 <head>
     <?php include 'controller/head.php'; ?>
-    <title>Nuestro Personal | CENDI</title>
+    <title>Técnico Laboral como Secretaria (o) Médica (o) | CENDI</title>
         <style>
         .text-primary {
             color: #ff4d29 !important;
@@ -55,11 +55,11 @@
 
     <!-- BANNER -->
     <div class="position-relative overflow-hidden mb-4">
-        <div class="banner-img" style="background-image: url('img/slides/contabilidad.jpg'); height: 400px; background-size: cover; background-position: center;"></div>
+        <div class="banner-img" style="background-image: url('img/slides/secretariado-medico.jpg'); height: 400px; background-size: cover; background-position: center;"></div>
         <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center" style="background: rgba(9, 32, 50, 0.7);">
             <div class="text-center text-white">
                 <h6 class="text-white">Programa Técnico Profesional</h6>
-                <h1 class="display-4 fw-bold mb-4 text-white">Técnico Laboral como Auxiliar Contable</h1>
+                <h1 class="display-4 fw-bold mb-4 text-white">Técnico Laboral como Secretaria (o) Médica (o)</h1>
                 <h5 style="text-align: center; color: white;">Lic. de Funcionamiento N° 05293 de Junio 25 de 2009<br>
                     Lic. de Funcionamiento N° 201750021377 de Diciembre 19 de 2017 Resolución de la Secretaria de Educación: <br>N°202150177931 DE 22/11/2021</h5>
 
@@ -99,16 +99,16 @@
                                             <h3 class="text-primary mb-4">Perfil de Egreso</h3>
                                             <p class="mb-4">Ocupaciones en las que el egresado puede desempeñarse:</p>
                                             <ul class="list-unstyled">
-                                                <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Auxiliar Contable</li>
-                                                <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Auxiliar de Tesorería</li>
-                                                <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Auxiliar de Cartera</li>
-                                                <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Asistente Financiero</li>
-                                            </ul>
+                                                <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Auxiliar de oﬁcina</li>
+                                                <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Digitadores</li>
+                                                <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Secretaria médica</li>
+                                                <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Secretaria general</li>
+                                                <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Secretaria de consultorios médicos</li>
                                         </div>
                                         <div class="tab-pane fade" id="plan" role="tabpanel" aria-labelledby="list-profile-list">
                                             <h3 class="text-primary mb-4">Plan de Estudio</h3>
                                             <p class="text-justify">
-                                                El programa Técnico Laboral como Auxiliar Contable cuenta con un total de 1.200 horas, distribuidas en tres niveles de formación:
+                                                El programa Técnico Laboral como Secretaria (o) Médica (o) cuenta con un total de 1.200 horas, distribuidas en tres niveles de formación:
                                             </p>
                                             <ul class="list-unstyled">
                                                 <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>50% teórico (600 horas)</li>
@@ -127,7 +127,6 @@
                                             <h3 class="text-primary mb-4">Módulos Básicos</h3>
                                             <ul class="list-unstyled">
                                                 <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Desarrollo Humano</li>
-                                                <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Empresarismo</li>
                                             </ul>
                                         </div>
                                         <div class="tab-pane fade" id="transversal" role="tabpanel" aria-labelledby="list-obligatorios-list">
@@ -135,24 +134,22 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <ul class="list-unstyled">
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Contabilidad General</li>
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Estados Financieros</li>
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Costos y Presupuestos</li>
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Legislación Tributaria</li>
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Matemática Financiera</li>
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Excel Avanzado</li>
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Software Contable</li>
+                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Informática I</li>
+                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Informática II</li>
+                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Informática III</li>
+                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Elaborar documentos</li>
+                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Archivo de documentos</li>
+                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Calidad en Salud</li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <ul class="list-unstyled">
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Análisis Financiero</li>
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Control de Inventarios</li>
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Nómina y Prestaciones</li>
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Gestión de Cartera</li>
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Auditoría Básica</li>
+                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Facturación</li>
+                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Atención al Cliente</li>
+                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Contabilidad General</li>
+                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Legislación Laboral</li>
                                                         <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Asesoría de Práctica</li>
-                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Práctica Externa</li>
+                                                        <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Práctica externa</li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -171,7 +168,7 @@
                 <div class="card-body">
                     <div class="text-center mb-4">
                         <h4 class="card-title" style="color: #092032">Certificado Otorgado</h4>
-                        <h5 class="card-subtitle mb-3 text-primary">TÉCNICO LABORAL POR COMPETENCIAS COMO AUXILIAR CONTABLE</h5>
+                        <h5 class="card-subtitle mb-3 text-primary">TÉCNICO LABORAL POR COMPETENCIAS COMO SECRETARIA(O) MÉDICA(O)</h5>
                         <div class="alert alert-light ">
                             <strong>NO CONDUCE A TITULO PROFESIONAL</strong>
                         </div>
@@ -182,9 +179,9 @@
                         <p class="mb-4">Supervisada por Secretaría de Educación de Medellín</p>
                     </div>
                     <div class="d-flex justify-content-center align-items-center flex-wrap gap-4">
-                        <img src="img/icons/logo-sena.png" alt="logo sena" class="img-fluid" style="height: 60px; width: auto;">
-                        <img src="img/icons/mejores.png" alt="mejores" class="img-fluid" style="height: 60px; width: auto;">
-                        <img src="img/logosCelac/celac-auxiliar-contable.png" alt="celac" class="img-fluid" style="height: 80px; width: auto;">
+                        <img src="img/icons/logo-sena.png" alt="logo sena" class="img-fluid" style="height: 80px; width: auto;">
+                        <img src="img/icons/mejores.png" alt="mejores" class="img-fluid" style="height: 80px; width: auto;">
+                        <img src="img/logosCelac/celac-secretaria-medica.png" alt="celac" class="img-fluid" style="height: 100px; width: auto;">
                     </div>
                 </div>
             </div>
@@ -203,6 +200,7 @@
     <script src="js/app.js"></script>
 
 
+    <?php include 'components/modals/contact.php'; ?>
     <?php include 'components/accessibility-tools.php'; ?>
     <link rel="stylesheet" href="css/accessibility.css">
     <script src="js/accessibility.js"></script>

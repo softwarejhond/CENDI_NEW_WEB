@@ -80,7 +80,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Egresados</a>
+                        <a class="nav-link" href="egresados.php">Egresados</a>
                     </li>
                 </ul>
                 <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
