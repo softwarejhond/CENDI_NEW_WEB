@@ -17,6 +17,7 @@
         <a href="https://www.campusdigital.cendiacademico.edu.co/login/index.php" target="_blank">
             <i class='bx bxs-rocket'></i> Campus virtual
         </a>
+     
        
     </div>
 </div>

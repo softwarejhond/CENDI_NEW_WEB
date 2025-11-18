@@ -74,9 +74,8 @@
                             Políticas
                         </a>
                         <div class="dropdown-menu" aria-labelledby="politicasDropdown">
-                            <a class="dropdown-item" href="#calidad">Política de Calidad</a>
-                            <a class="dropdown-item" href="#privacidad">Política de Privacidad</a>
-                            <a class="dropdown-item" href="#reglamento">Reglamento Institucional</a>
+                            <a class="dropdown-item" href="DOCS/PSPI.pdf" target="_blank">Política de seguridad y privacidad de la información</a>
+                        
                         </div>
                     </li>
                     <li class="nav-item">

@@ -23,8 +23,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
-    <link rel="stylesheet" href="<?php echo $base_for_href; ?>css/style.css?v=1.1">
-    <link rel="stylesheet" href="<?php echo $base_for_href; ?>css/floating-button.css?v=1.1">
+    <link rel="stylesheet" href="<?php echo $base_for_href; ?>css/style.css?v=1.2">
+    <link rel="stylesheet" href="<?php echo $base_for_href; ?>css/floating-button.css?v=1.5">
    <!-- Font Awesome para íconos de accesibilidad -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="css/accessibility.css?v=1.0">
