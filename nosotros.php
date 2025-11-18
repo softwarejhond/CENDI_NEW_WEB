@@ -29,7 +29,7 @@
                     <h3 class="tittles">La Institución</h3>
                     <p class="text-justify" style="color: #4e4e4e;">
                         <span class="d-block text-brand fw-bold mb-3 fs-4 text-center">Corporación Centro de Desarrollo Integrado "CENDI"</span>
-                        
+                        <img src="img/bg_banner1.jpg" alt=" CENDI" class="img-fluid mb-4 d-block mx-auto" style="max-width: 100%;">
                         La Corporación Centro de Desarrollo Integrado CENDI es una Institución Educativa 
                         fundada en 1988 y caracterizada por la búsqueda constante de innovación educativa 
                         y de nuevas alternativas pedagógicas que permitan a nuestros educandos y a la 
@@ -158,7 +158,6 @@
 </footer>
     <?php include 'components/modals/contact.php'; ?>
     <?php include 'components/accessibility-tools.php'; ?>
-    <link rel="stylesheet" href="css/accessibility.css">
     <script src="js/accessibility.js"></script>
 
     <script src="js/jquery.min.js"></script>

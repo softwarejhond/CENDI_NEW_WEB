@@ -1,6 +1,10 @@
 <!doctype html>
 <html lang="en">
+<?php 
 
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+?>
 <head>
     <?php include 'controller/head.php'; ?>
 </head>
@@ -9,7 +13,7 @@
 
 
     <!-- TOP NAV -->
-    <?php include 'controller/topnav.php'; ?>
+    <?php include 'controller/topNav.php'; ?>
 
     <!-- BOTTOM NAV -->
     <?php include("controller/navbar.php") ?>
@@ -33,11 +37,11 @@
     <!-- SERVICES -->
     <?php include("components/teams.php") ?>
 
-    <!-- TESTIMONIOS -->
-    <?php include("components/testimonios.php") ?>
+    <!-- TESTIMONIOS 
+    <?php include("components/testimonios.php") ?>-->
 
     <!-- CONVENIOS -->
-    <?php include("components/agreements.php") ?>
+    <?php //include("components/agreements.php") ?>
 
 
     <footer>
@@ -55,9 +59,7 @@
     <script src="js/app.js"></script>
     <script src="js/accessibility.js"></script>
     
-    <!-- Font Awesome para íconos de accesibilidad -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="css/accessibility.css">
+
 </body>
 
 </html>

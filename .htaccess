@@ -1,0 +1,27 @@
+###############################
+# Ocultar extensión .php
+# - Redirige peticiones directas a *.php hacia la URL sin extensión (canónica)
+# - Reescribe URLs sin extensión hacia el archivo .php si existe
+###############################
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # -- Canonical: redirect /archivo.php -> /archivo (301)
+    RewriteCond %{THE_REQUEST} \s/([^
+\s]+)\.php[?\s] [NC]
+    RewriteRule ^ /%1 [R=301,L]
+
+    # -- Si la petición no apunta a un archivo o directorio existente
+    #    y existe el mismo nombre con .php, servir ese .php internamente
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^(.*)$ $1.php [L]
+
+    # Asegurar index.php como página por defecto
+    DirectoryIndex index.php index.html
+</IfModule>
+
+# Evitar mostrar listado de directorio
+Options -Indexes

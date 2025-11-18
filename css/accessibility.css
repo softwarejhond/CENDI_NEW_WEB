@@ -1,7 +1,7 @@
 .accessibility-toolbar {
     position: fixed;
     right: 20px;
-    top: 30%;
+    top: 40%;
     transform: translateY(-30%);
     z-index: 1000;
     background: #fff;

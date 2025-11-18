@@ -37,7 +37,7 @@
                             <div class="ms-4">
                                 <h5>PRE-INSCRIPCIONES TÉCNICOS</h5>
                                 <p>Prepárate que grandes retos vendrán ahora que elegiste tu ocupación.</p>
-                                <a href="prematricula.php" class="btn btn-primary mt-3">Ir a Prematrícula</a>
+                                <a href="#" class="btn btn-primary mt-3">Ir a Prematrícula</a>
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
                             <div class="ms-4">
                                 <h5>PRE-INSCRIPCIONES BACHILLERATO</h5>
                                 <p>Disfruta de una educación integral, esta te llevará al éxito con la profesión que elijas.</p>
-                                <a href="prematricula.php" class="btn btn-primary mt-3">Ir a Prematrícula</a>
+                                <a href="#" class="btn btn-primary mt-3">Ir a Prematrícula</a>
                             </div>
                         </div>
                     </div>
