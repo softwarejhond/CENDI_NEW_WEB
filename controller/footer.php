@@ -170,11 +170,7 @@
                         <a href="https://www.instagram.com/cendi.medellin/" target="_blank" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
                         <a href="https://wa.me/573122143744" target="_blank" aria-label="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
                     </div>
-                    <!-- Switch para mostrar/ocultar promociones (controla SweetAlert) -->
-                    <div class="form-check form-switch mt-3">
-                        <input class="form-check-input" type="checkbox" id="promoSwitch" aria-label="Mostrar promociones">
-                        <label class="form-check-label text-white" for="promoSwitch">Mostrar promociones</label>
-                    </div>
+                
                 </div>
             </div>
 
@@ -193,9 +189,9 @@
             <!-- Columna 3: Correo Electrónico -->
             <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
                 <h5 class="text-white mb-4">Correo Electrónico</h5>
-                <p class="mb-2"><i class="far fa-envelope me-2"></i>Rectoría Técnicos:<br>rectoriatecnicos@cendi.edu.co</p>
-                <p class="mb-2"><i class="far fa-envelope me-2"></i>Coordinación Bachillerato:<br>rectoria@cendi.edu.co</p>
-                <p class="mb-2"><i class="far fa-envelope me-2"></i>Compras:<br>compraseinfraestructura@cendi.edu.co</p>
+                <p class="mb-2"><i class="far fa-envelope me-2"></i>Rectoría Técnicos:<br>rectoriatecnicos@cendiacademico.edu.co</p>
+                <p class="mb-2"><i class="far fa-envelope me-2"></i>Coordinación Bachillerato:<br>rectoria@cendiacademico.edu.co</p>
+                <p class="mb-2"><i class="far fa-envelope me-2"></i>Compras:<br>compraseinfraestructura@cendiacademico.edu.co</p>
                 <div class="mt-4">
                     <h5 class="text-white mb-3">Enlaces de Interés</h5>
                     <p class="mb-2"><a href="DOCS/PSPI.pdf" class="text-white-50" target="_blank"><i class="bx bx-shield me-2" aria-hidden="true"></i>Política de seguridad y privacidad de la información</a></p>
@@ -216,6 +212,7 @@
 
                     </div>
                     <div class="mb-3">
+                        <br>
                         <p class="small mb-0">VIGILADA POR SECRETARÍA DE EDUCACIÓN DE MEDELLÍN</p>
                     </div>
                 </div>
