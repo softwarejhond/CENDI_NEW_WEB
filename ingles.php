@@ -340,7 +340,7 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/app.js"></script>
-
+    <?php include 'components/modals/anuncios.php'; ?>
 
     <?php include 'components/modals/contact.php'; ?>
     <?php include 'components/accessibility-tools.php'; ?>

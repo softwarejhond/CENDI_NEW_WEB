@@ -229,6 +229,5 @@
         <a href="index" class="text-white"><b>CORPORACIÓN CENDI</b></a>
     </p>
 </div>
-<!-- SweetAlert2 (local instalado via npm) y script de promociones -->
-<script src="node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
-<script src="js/promo.js"></script>
+
+
