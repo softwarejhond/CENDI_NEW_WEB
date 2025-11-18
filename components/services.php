@@ -151,28 +151,28 @@
                     </div>
                     <div class="modal-body">
                         <p class="mb-1"><strong>Categoría:</strong> <span id="serviceCategory"></span></p>
-                        <p id="serviceDescription" class="mb-4"></p>
+                        <p id="serviceDescription" class="mb-4" style="color: #ff4d29;"></p>
                         
                         <form id="infoForm" class="needs-validation" novalidate>
                             <div class="mb-3">
-                                <label for="nombreCompleto" class="form-label">Nombre Completo *</label>
-                                <input type="text" class="form-control" id="nombreCompleto" required>
+                                <label for="nombreCompleto" class="form-label" style="color: #ff4d29;">Nombre Completo *</label>
+                                <input type="text" class="form-control text-center" id="nombreCompleto" placeholder="Nombre completo" required>
                                 <div class="invalid-feedback">
                                     Por favor ingrese su nombre completo
                                 </div>
                             </div>
                             <div class="mb-3">
-                                <label for="telefono" class="form-label">Teléfono *</label>
-                                <input type="tel" class="form-control" id="telefono" required
-                                    pattern="[0-9]{10}"
+                                <label for="telefono" class="form-label" style="color: #ff4d29;">Teléfono *</label>
+                                <input type="tel" class="form-control text-center" id="telefono" required
+                                    pattern="[0-9]{10}" placeholder="3010000000"
                                     title="Por favor ingrese un número de teléfono válido de 10 dígitos">
                                 <div class="invalid-feedback">
                                     Por favor ingrese un número de teléfono válido
                                 </div>
                             </div>
                             <div class="mb-3">
-                                <label for="email" class="form-label">Correo Electrónico *</label>
-                                <input type="email" class="form-control" id="email" required>
+                                <label for="email" class="form-label text-center" style="color: #ff4d29;">Correo Electrónico *</label>
+                                <input type="email" class="form-control text-center" id="email" placeholder="correo@ejemplo.com" required>
                                 <div class="invalid-feedback">
                                     Por favor ingrese un correo electrónico válido
                                 </div>

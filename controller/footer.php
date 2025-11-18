@@ -170,6 +170,11 @@
                         <a href="https://www.instagram.com/cendi.medellin/" target="_blank" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
                         <a href="https://wa.me/573122143744" target="_blank" aria-label="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
                     </div>
+                    <!-- Switch para mostrar/ocultar promociones (controla SweetAlert) -->
+                    <div class="form-check form-switch mt-3">
+                        <input class="form-check-input" type="checkbox" id="promoSwitch" aria-label="Mostrar promociones">
+                        <label class="form-check-label text-white" for="promoSwitch">Mostrar promociones</label>
+                    </div>
                 </div>
             </div>
 
@@ -224,3 +229,6 @@
         <a href="index" class="text-white"><b>CORPORACIÓN CENDI</b></a>
     </p>
 </div>
+<!-- SweetAlert2 (local instalado via npm) y script de promociones -->
+<script src="node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+<script src="js/promo.js"></script>

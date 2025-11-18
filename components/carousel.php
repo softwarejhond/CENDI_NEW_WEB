@@ -114,8 +114,8 @@ $seleccion = array_slice($programas, 0, 3);
                             <h4 class="text-white"><?php echo $item['curso']['titulo']; ?></h4>
                             <p class="lead mb-4 text-white"><?php echo $item['curso']['descripcion']; ?></p>
                         </div>
-                        <a href="#courses" class="btn btn-brand">Conoce más</a>
-                        <a href="#contact" class="btn btn-outline-light ms-3">Contáctanos</a>
+                        <a href="#services" class="btn btn-brand">Conoce más</a>
+                        <a href="https://wa.me/573122143744?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20programas" target="_blank" rel="noopener" class="btn btn-outline-light ms-3">Contáctanos</a>
                     </div>
                 </div>
             </div>
