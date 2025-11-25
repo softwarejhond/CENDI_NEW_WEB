@@ -90,14 +90,26 @@ ini_set('display_errors', 1);
                                                 imageUrl: 'img/logo.png',
                                                 imageWidth: 120,
                                                 imageAlt: 'Logo CENDI',
-                                                html: '<p style="margin-top:0.25rem;margin-bottom:0.5rem;font-weight:600;">Este espacio será para notificaciones importantes que estaremos compartiendo próximamente.</p>' +
-                                                      '<p style="margin-top:0.5rem;margin-bottom:0.75rem;">Síguenos y visítanos en nuestras redes:</p>' +
-                                                            '<div style="display:flex;gap:12px;justify-content:center;align-items:center;font-size:1.1rem">' +
-                                                                '<a href="https://www.facebook.com/InstitutoCENDI/" target="_blank" class="text-reset" aria-label="Facebook" style="color:inherit;"><i class="bx bxl-facebook" style="font-size:1.6rem"></i></a>' +
-                                                                '<a href="https://www.instagram.com/cendi.medellin/" target="_blank" class="text-reset" aria-label="Instagram" style="color:inherit;"><i class="bx bxl-instagram" style="font-size:1.6rem"></i></a>' +
-                                                                '<a href="https://wa.me/573122143744" target="_blank" class="text-reset" aria-label="WhatsApp" style="color:inherit;"><i class="bx bxl-whatsapp" style="font-size:1.6rem"></i></a>' +
-                                                                '<a href="https://ul.waze.com/ul?place=ChIJ-Uo-KFgoRI4RCnuXtx1TI-M&ll=6.24625800%2C-75.56252500&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" target="_blank" class="text-reset" aria-label="Waze" style="color:inherit;"><i class="fa-brands fa-waze" style="font-size:1.6rem"></i></a>' +
-                                                            '</div>',
+                                                html: `
+                                                    <div style="text-align:center">
+                                                        <!-- Imagen promocional: coloca tu archivo en img/modal/matriculas2026.png-->
+                                                        <img src="img/modal/matriculas2026.png" alt="Promoción CENDI" style="max-width:100%;height:auto;border-radius:8px;margin-bottom:12px;" />
+                                 
+                                                        <!-- Botones de preinscripción (alineados en una sola fila) -->
+                                                        <div style="display:flex;gap:12px;justify-content:center;align-items:center;margin:12px 0;flex-wrap:nowrap;white-space:nowrap;">
+                                                            <a href="https://site3.q10.com/Preinscripcion?aplentId=d0e037d5-22c3-4082-b55e-d30628819936" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;background:#ff4d29;color:#fff;border-radius:6px;text-decoration:none;font-weight:600;min-width:160px;">Preinscripción Técnicos</a>
+                                                            <a href="https://site2.q10.com/Preinscripcion?aplentId=c866b1f7-b5a4-4146-a6d5-eda3de6bdea9" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;background:#007bff;color:#fff;border-radius:6px;text-decoration:none;font-weight:600;min-width:160px;">Preinscripción Bachillerato</a>
+                                                        </div>
+
+                                                        <p style="margin-top:0.5rem;margin-bottom:0.75rem;">Síguenos y visítanos en nuestras redes:</p>
+                                                        <div style="display:flex;gap:12px;justify-content:center;align-items:center;font-size:1.1rem">
+                                                            <a href="https://www.facebook.com/InstitutoCENDI/" target="_blank" class="text-reset" aria-label="Facebook" style="color:inherit;"><i class="bx bxl-facebook" style="font-size:1.6rem"></i></a>
+                                                            <a href="https://www.instagram.com/cendi.medellin/" target="_blank" class="text-reset" aria-label="Instagram" style="color:inherit;"><i class="bx bxl-instagram" style="font-size:1.6rem"></i></a>
+                                                            <a href="https://wa.me/573122143744" target="_blank" class="text-reset" aria-label="WhatsApp" style="color:inherit;"><i class="bx bxl-whatsapp" style="font-size:1.6rem"></i></a>
+                                                            <a href="https://ul.waze.com/ul?place=ChIJ-Uo-KFgoRI4RCnuXtx1TI-M&ll=6.24625800%2C-75.56252500&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" target="_blank" class="text-reset" aria-label="Waze" style="color:inherit;"><i class="fa-brands fa-waze" style="font-size:1.6rem"></i></a>
+                                                        </div>
+
+                                                    </div>`,
                                                 showConfirmButton: true,
                                                 confirmButtonText: 'Cerrar'
                                         });
