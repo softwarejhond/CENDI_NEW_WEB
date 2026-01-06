@@ -147,6 +147,26 @@ section {
 
 .navbar {
     box-shadow: var(--shadow);
+    transition: all 0.4s ease;
+}
+
+/* Navbar con scroll - fondo semi oscuro */
+.navbar-scrolled {
+    background-color: rgba(9, 32, 50, 0.95) !important;
+    backdrop-filter: blur(10px);
+}
+
+.navbar-scrolled .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navbar-scrolled .navbar-nav .nav-link:hover,
+.navbar-scrolled .navbar-nav .nav-link.active {
+    color: var(--brand) !important;
+}
+
+.navbar-scrolled .navbar-toggler-icon {
+    filter: invert(1);
 }
 
 .social-icons a {

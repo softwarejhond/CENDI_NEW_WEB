@@ -1,7 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="#">
-            
+            <?php //include 'components/animations/christmasTree.php'; ?>
+               <?php //include 'components/animations/santa.php'; ?>
                 <img src="img/logo.png" alt="Logo CENDI" width="200" height="80" class="d-inline-block align-top ms-2">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
