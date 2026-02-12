@@ -9,8 +9,9 @@ ini_set('display_errors', 1);
 
 <head>
     <?php include 'controller/head.php'; ?>
+ 
 </head>
-
+  <?php include("components/animations/sanValentin.php") ?>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
 
 
