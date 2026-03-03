@@ -13,13 +13,13 @@ ini_set('display_errors', 1);
 </head>
  <!-- <php// include("components/animations/sanValentin.php") ?>-->
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
-
-
+    <?php include 'components/animations/women_day.php'; ?>
     <!-- TOP NAV -->
     <?php include 'controller/topNav.php'; ?>
 
     <!-- BOTTOM NAV -->
     <?php include("controller/navbar.php") ?>
+
     <?php include("controller/floating-button.php") ?>
 
     <!-- SLIDER -->
@@ -94,7 +94,7 @@ ini_set('display_errors', 1);
                                                 html: `
                                                     <div style="text-align:center">
                                                         <!-- Imagen promocional: coloca tu archivo en img/modal/matriculas2026.png-->
-                                                        <img src="img/modal/matriculas2026.png" alt="Promoción CENDI" style="max-width:100%;height:auto;border-radius:8px;margin-bottom:12px;" />
+                                                        <img src="img/modal/women_day.png" alt="Promoción CENDI" style="max-width:100%;height:auto;border-radius:8px;margin-bottom:12px;" />
                                  
                                                         <!-- Botones de preinscripción (alineados en una sola fila) -->
                                                         <div style="display:flex;gap:12px;justify-content:center;align-items:center;margin:12px 0;flex-wrap:nowrap;white-space:nowrap;">
