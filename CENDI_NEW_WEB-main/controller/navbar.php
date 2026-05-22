@@ -4,7 +4,11 @@
             <?php //include 'components/animations/christmasTree.php'; ?>
                <?php //include 'components/animations/santa.php'; ?>
                
+<<<<<<< HEAD
                 <img src="img/logo.png" alt="Logo CENDI" width="200" height="80" class="d-inline-block align-top ms-2">
+=======
+                <img src="img/logosSeasons/logo_madres.PNG" alt="Logo CENDI" width="200" height="120" class="d-inline-block align-top ms-2">
+>>>>>>> bc12dc40b125f971373e628b38921331a7f5fd78
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

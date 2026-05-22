@@ -96,13 +96,22 @@ ini_set('display_errors', 1);
                     // Mostrar alerta simple de bienvenida (espacio para notificaciones importantes)
                                         Swal.fire({
                                                 title: 'Bienvenido a CENDI',
+<<<<<<< HEAD
                                                 imageUrl: 'img/logo.png', // Cambia esta ruta por tu imagen promocional
                                                 imageWidth: 150,
+=======
+                                                imageUrl: 'img/logosSeasons/logo_madres.PNG',
+                                                imageWidth: 200,
+>>>>>>> bc12dc40b125f971373e628b38921331a7f5fd78
                                                 imageAlt: 'Logo CENDI',
                                                 html: `
                                                     <div style="text-align:center">
                                                         <!-- Imagen promocional: coloca tu archivo en img/modal/matriculas2026.png-->
+<<<<<<< HEAD
                                                         <img src="img/modal/cambio_climatico.png" alt="Promoción CENDI" style="max-width:100%;height:auto;border-radius:8px;margin-bottom:12px;" />
+=======
+                                                        <img src="img/modal/mother.png" alt="Promoción CENDI" style="max-width:100%;height:auto;border-radius:8px;margin-bottom:12px;" />
+>>>>>>> bc12dc40b125f971373e628b38921331a7f5fd78
                                  
                                                         <!-- Botones de preinscripción (alineados en una sola fila) -->
                                                         <div style="display:flex;gap:12px;justify-content:center;align-items:center;margin:12px 0;flex-wrap:nowrap;white-space:nowrap;">
