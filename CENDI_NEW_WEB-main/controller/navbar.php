@@ -4,11 +4,7 @@
             <?php //include 'components/animations/christmasTree.php'; ?>
                <?php //include 'components/animations/santa.php'; ?>
                
-<<<<<<< HEAD
-                <img src="img/logo.png" alt="Logo CENDI" width="200" height="80" class="d-inline-block align-top ms-2">
-=======
-                <img src="img/logosSeasons/logo_madres.PNG" alt="Logo CENDI" width="200" height="120" class="d-inline-block align-top ms-2">
->>>>>>> bc12dc40b125f971373e628b38921331a7f5fd78
+                <img src="img/logosSeasons/mundial.webp" alt="Logo CENDI" width="150" height="100" class="d-inline-block align-top ms-2">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,6 +56,11 @@
                             <label class="dropdown-item disabled color-naranja fw-bold" style="color:#ff4d29">PROGRAMA DE CONOCIMIENTOS ACADÉMICOS:</label>
                             <a class="dropdown-item" href="ingles.php">Inglés</a>
                         </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="bachillerato.php">
+                            Bachillerato
+                        </a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="seminariosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

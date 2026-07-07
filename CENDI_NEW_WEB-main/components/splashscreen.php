@@ -8,6 +8,6 @@
     <div class="splash-bg-layer splash-bg-layer-2"></div>
     <div class="splash-bg-layer splash-bg-layer-3"></div>
     <div class="splash-logo-wrap">
-        <img src="img/logo.ico" alt="Logo" class="splash-logo">
+        <img src="img/icons/welcome_mundial.png" alt="Logo" class="splash-logo">
     </div>
 </div>
