@@ -96,13 +96,19 @@ ini_set('display_errors', 1);
                     // Mostrar alerta simple de bienvenida (espacio para notificaciones importantes)
                                         Swal.fire({
                                                 title: 'Bienvenido a CENDI',
-                                                imageUrl: 'img/logosSeasons/mundial.webp', // Cambia esta ruta por tu imagen promocional
+                                                imageUrl: 'img/logosSeasons/feria_flores.jpeg', // Cambia esta ruta por tu imagen promocional
                                                 imageWidth: 150,
                                                 imageAlt: 'Logo CENDI',
                                                 html: `
                                                     <div style="text-align:center">
-                                                        <!-- Imagen promocional: coloca tu archivo en img/modal/matriculas2026.png-->
-                                                        <img src="img/modal/mundial.png" alt="Promoción CENDI" style="max-width:100%;height:auto;border-radius:8px;margin-bottom:12px;" />
+                                                        <a href="https://www.sapiencia.gov.co" target="_blank" rel="noopener noreferrer">
+                                                            <img src="img/modal/sapiencia.jpeg" alt="Promoción CENDI" style="max-width:100%;height:auto;border-radius:8px;margin-bottom:12px;" />
+                                                        </a>
+                                                       <!-- <img src="img/modal/feria_flores.jpeg" alt="Promoción CENDI" style="max-width:100%;height:auto;border-radius:8px;margin-bottom:12px;" /> -->
+
+                                                       <div style="margin-bottom: 12px;">
+                                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ4jEUori7lq8alRmr3gwHw-3AkgsEpkgWdxQKJuauu1NrqA/viewform?usp=publish-editor&pli=1&authuser=0" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;justify-content:center;padding:10px 20px;background:#28a745;color:#fff;border-radius:6px;text-decoration:none;font-weight:600;min-width:160px;">Inscríbete aquí</a>
+                                                        </div>
                                  
                                                         <!-- Botones de preinscripción (alineados en una sola fila) -->
                                                         <div style="display:flex;gap:12px;justify-content:center;align-items:center;margin:12px 0;flex-wrap:nowrap;white-space:nowrap;">

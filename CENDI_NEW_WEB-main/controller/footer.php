@@ -226,6 +226,7 @@
         Made By <b><a class="eagle-link-footer" href="https://agenciaeaglesoftware.com/" target="_blank">Eagle Software</a></b> &copy; Copyright <?php echo date("Y"); ?> for
         <a href="index" class="text-white"><b>CORPORACIÓN CENDI</b></a>
     </p>
+    
 </div>
 
 

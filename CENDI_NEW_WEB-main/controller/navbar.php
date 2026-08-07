@@ -4,7 +4,7 @@
             <?php //include 'components/animations/christmasTree.php'; ?>
                <?php //include 'components/animations/santa.php'; ?>
                
-                <img src="img/logosSeasons/mundial.webp" alt="Logo CENDI" width="150" height="100" class="d-inline-block align-top ms-2">
+                <img src="img/logosSeasons/feria_flores.jpeg" alt="Logo CENDI" width="150" height="100" class="d-inline-block align-top ms-2">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,7 @@
                             <a class="dropdown-item" href="politicasDeCalidad.php">SGC</a>
                             <a class="dropdown-item" href="trabajeConNosotros.php">Trabaje con nosotros</a>
                             <a class="dropdown-item" href="/DOCS/M_C_Bachiller.pdf" download="Manual de convicencia CENDI 2020 Bachiller">Manual de convivencia Bachillerato</a>
-                            <a class="dropdown-item" href="/DOCS/MA04 Manual de Convivencia Versión 7 D.pdf" download="Manual de convicencia CENDI V7 Tecnicos">Manual de convivencia Técnicos</a>
+                            <a class="dropdown-item" href="/DOCS/4ManualConvivencia2026.pdf" download="Manual de convicencia CENDI Tecnicos">Manual de convivencia Técnicos</a>
                             <a class="dropdown-item" href="personal.php">Nuestro personal</a>
                             <a class="dropdown-item" href="docentes.php">Nuestros profesores</a>
                         </div>

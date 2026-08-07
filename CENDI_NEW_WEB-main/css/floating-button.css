@@ -5,11 +5,10 @@
     right: 15px;
     z-index: 1000;
 }
+
 .floating-menu {
-    /* Posicionar el menú relativo al contenedor .floating-button
-       para que siempre aparezca junto al botón y no se corte en el viewport */
     position: absolute;
-    right: 80px; /* se coloca a la izquierda del botón */
+    right: 80px; 
     top: 50%;
     transform: translateY(-50%);
     background: #022964;
@@ -18,7 +17,7 @@
     display: none;
     z-index: 1100;
     min-width: 200px;
-    max-height: 60vh; /* si hay muchos elementos, permitirá scroll */
+    max-height: 60vh; 
     overflow: auto;
     padding: 6px 0;
 }
@@ -27,22 +26,38 @@
     display: block;
 }
 
+/* --- AQUÍ ESTÁN LOS CAMBIOS IMPORTANTES --- */
+
 .floating-menu a {
-    display: block;
+    display: flex;             /* Cambiado de 'block' a 'flex' para alinear en línea */
+    align-items: center;       /* Centra verticalmente el icono/imagen con el texto */
     padding: 12px 24px;
     color: white;
     text-decoration: none;
     transition: background 0.3s;
-    
 }
 
 .floating-menu a:hover {
     background: rgba(255, 255, 255, 0.1);
 }
 
+/* Estilo para los iconos tipográficos (Boxicons) */
 .floating-menu a i {
     margin-right: 10px;
+    font-size: 20px;            /* Tamaño uniforme para los iconos */
+    width: 20px;                /* Mismo ancho fijo */
+    text-align: center;
 }
+
+/* Estilo para la IMAGEN del logo Escolink */
+.floating-menu a img.menu-icon {
+    width: 20px;                /* Mismo ancho que los otros iconos */
+    height: 20px;               /* Altura proporcional */
+    object-fit: contain;        /* No deforma la imagen */
+    margin-right: 10px;         /* Mismo margen a la derecha que la etiqueta <i> */
+}
+
+/* --- FIN DE CAMBIOS --- */
 
 .btn-float {
     width: 60px;

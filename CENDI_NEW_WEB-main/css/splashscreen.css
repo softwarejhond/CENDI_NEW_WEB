@@ -56,8 +56,8 @@
 .splash-logo-wrap {
     position: relative;
     z-index: 2;
-    width: clamp(280px, 70vmin, 500px);
-    height: clamp(280px, 70vmin, 500px);
+    width: clamp(320px, 80vmin, 600px); 
+    height: clamp(320px, 80vmin, 600px);
     display: grid;
     place-items: center;
 }
