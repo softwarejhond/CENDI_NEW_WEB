@@ -4,7 +4,7 @@
             <?php //include 'components/animations/christmasTree.php'; ?>
                <?php //include 'components/animations/santa.php'; ?>
                
-                <img src="img/logosSeasons/feria_flores.jpeg" alt="Logo CENDI" width="150" height="100" class="d-inline-block align-top ms-2">
+                <img src="img/logosSeasons/haloween.png" alt="Logo CENDI" width="180" height="100" class="d-inline-block align-top ms-2">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

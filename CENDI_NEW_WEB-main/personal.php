@@ -11,8 +11,6 @@
     <?php include 'controller/navbar.php'; ?>
     <?php include 'controller/floating-button.php'; ?>
 
-
-
     <section class="bg-light" id="docentes">
         <div class="container">
             <div class="row">
@@ -26,9 +24,11 @@
                 <div class="row">
     <?php
     for ($i = 1; $i <= 16; $i++) {        
-        if ($i == 17) {
+        // Omitir las fotos 9, 11, 12 y 16
+        if (in_array($i, [9, 11, 12, 16])) {
             continue;
         }
+
         $duration = 1000 + (($i - 1) % 4) * 500;
         echo '<div class="col-lg-3 about-text">
             <div class="card" style="width: 100%" data-aos="zoom-in" data-aos-duration="' . $duration . '" data-aos-delay="300" data-aos-once="false">
@@ -39,6 +39,7 @@
     ?>
 </div>
             </div>
+        </div>
     </section>
     <!-- FOOTER -->
     <footer>
