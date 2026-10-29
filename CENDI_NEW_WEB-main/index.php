@@ -132,6 +132,11 @@ ini_set('display_errors', 1);
                                 <div class="promo-carousel-container" style="position: relative; max-width: 100%; margin-bottom: 12px; overflow: hidden; border-radius: 8px;">
                                     <div class="promo-carousel-slides" style="display: flex; transition: transform 0.4s ease-in-out;">
                                         
+                                        <!-- Imagen cumpleaños -->
+                                        <div class="promo-carousel-slide" style="min-width: 100%; box-sizing: border-box;">
+                                                <img src="img/modal/38años.png" alt="Promoción CENDI" style="max-width:100%;height:auto;border-radius:8px;display:block;margin:0 auto;" />
+                                        </div>                                       
+                                    
                                         <!-- Imagen 1 -->
                                         <div class="promo-carousel-slide" style="min-width: 100%; box-sizing: border-box;">
                                                 <img src="img/modal/modal_halloween.png" alt="Promoción CENDI" style="max-width:100%;height:auto;border-radius:8px;display:block;margin:0 auto;" />

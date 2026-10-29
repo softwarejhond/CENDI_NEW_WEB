@@ -2,7 +2,7 @@
         <div class="container">
             <div class="row text-center justify-content-center gy-4">
                 <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">37</h1>
+                    <h1 class="display-4">38</h1>
                     <p class="mb-0">Años</p>
                 </div>
                 <div class="col-lg-2 col-sm-6">
