@@ -1,0 +1,112 @@
+.maps-section {
+    position: relative;
+    padding: 100px 0;
+    background-color: #f8f9fa;
+    overflow: hidden;
+}
+
+.maps-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../img/sliders/mapa.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1;
+    z-index: 1;
+}
+
+.maps-container {
+    position: relative;
+    z-index: 2;
+}
+
+.maps-title {
+    color: #092032;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+
+.maps-title::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background-color: #ff4d29;
+}
+
+.map-wrapper {
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.map-iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+}
+
+.location-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.location-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 25px;
+    background-color: #fff;
+    color: #092032;
+    border: 2px solid #ff4d29;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.location-button:hover {
+    background-color: #ff4d29;
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255, 77, 41, 0.3);
+}
+
+.location-button i {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+    .maps-title {
+        font-size: 2rem;
+    }
+    
+    .map-iframe {
+        height: 400px;
+    }
+    
+    .location-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .location-button {
+        text-align: center;
+        justify-content: center;
+    }
+}
